@@ -1,0 +1,13 @@
+.Wrapper {
+  position: absolute;
+  height: 1500px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.Background {
+  height: 100%;
+  width: auto;
+}
