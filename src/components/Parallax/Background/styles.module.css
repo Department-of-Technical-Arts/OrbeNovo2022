@@ -1,13 +1,11 @@
 .Wrapper {
   position: absolute;
-  height: 1500px;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-}
-
-.Background {
-  height: 100%;
-  width: auto;
+  min-height: 100vh;
+  width: 100vw;
+  z-index: -2;
+  background-image: url("../../../assets/images/newBg.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }

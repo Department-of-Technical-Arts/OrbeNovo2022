@@ -1,14 +1,10 @@
 import React from "react";
 
-import Background from "../../../assets/images/bg.svg";
+import Background from "../../../assets/images/newBg.png";
 import styles from "./styles.module.css";
 
-function Index() {
-  return (
-    <div className={styles.Wrapper}>
-      <img alt="" src={Background} className={styles.Background} />
-    </div>
-  );
+function Index({ children }) {
+  return <div className={styles.Wrapper}>{children}</div>;
 }
 
 export default Index;

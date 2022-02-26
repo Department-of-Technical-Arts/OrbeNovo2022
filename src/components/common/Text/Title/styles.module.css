@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundText {
+  font-family: "Henny Penny", cursive;
+  font-size: 200px;
+  color: rgb(255, 24, 239, 0.25);
+}
+
+.text {
+  font-family: "Henny Penny", cursive;
+  font-size: 80px;
+  color: #2c3190;
+  position: absolute;
+}
