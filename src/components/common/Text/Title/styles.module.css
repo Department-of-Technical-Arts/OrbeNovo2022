@@ -6,13 +6,22 @@
 
 .backgroundText {
   font-family: "Henny Penny", cursive;
-  font-size: 200px;
+  font-size: 150px;
   color: rgb(255, 24, 239, 0.25);
 }
 
 .text {
   font-family: "Henny Penny", cursive;
-  font-size: 80px;
+  font-size: 60px;
   color: #2c3190;
   position: absolute;
+}
+
+@media only screen and (max-width: 1540px) {
+  .backgroundText {
+    font-size: 120px;
+  }
+  .text {
+    font-size: 40px;
+  }
 }

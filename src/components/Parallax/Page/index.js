@@ -1,20 +1,11 @@
 import React from "react";
 
-import { useParallax } from "react-scroll-parallax";
-
 import styles from "./styles.module.css";
-import Container from "../../common/Container";
-import AboutUs from "../../HomeComponents/AboutUs";
-import Sponsors from "../../HomeComponents/Sponsors";
 
-function Index() {
-  // const { ref } = useParallax({ speed: 30 });
+function Index({ children }) {
   return (
-    <div className={styles.Wrapper}>
-      <Container>
-        <AboutUs />
-        <Sponsors />
-      </Container>
+    <div className={styles.Wrapper} id="parent">
+      <div className="container pt-96 ">{children}</div>
     </div>
   );
 }

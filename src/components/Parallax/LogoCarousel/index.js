@@ -1,6 +1,7 @@
 import React from "react";
 
 import Slider from "react-slick";
+import { motion } from "framer-motion";
 
 import styles from "./styles.module.css";
 import OrbeNovoLogo from "../../../assets/images/Orbe Novo.png";
@@ -22,24 +23,60 @@ function Index() {
   return (
     <div className={styles.carousel}>
       <Slider {...settings}>
-        <div className={styles.item}>
-          <img src={OrbeNovoLogo} className={styles.image} alt="" />
-        </div>
-        <div className={styles.item}>
-          <img src={AtmosLogo} className={styles.image} alt="" />
-        </div>
-        <div className={styles.item}>
-          <img src={PearlLogo} className={styles.image} alt="" />
-        </div>
-        <div className={styles.item}>
-          <img src={OrbeNovoLogo} className={styles.image} alt="" />
-        </div>
-        <div className={styles.item}>
-          <img src={AtmosLogo} className={styles.image} alt="" />
-        </div>
-        <div className={styles.item}>
-          <img src={PearlLogo} className={styles.image} alt="" />
-        </div>
+        <motion.div whileHover={{ scale: 1.05 }} className={styles.item}>
+          <motion.img
+            animate={{ y: [0, 7, 0] }}
+            transition={{ duration: 3, repeat: Infinity }}
+            src={OrbeNovoLogo}
+            className={styles.image}
+            alt=""
+          />
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.05 }} className={styles.item}>
+          <motion.img
+            animate={{ y: [0, 7, 0] }}
+            transition={{ duration: 3, repeat: Infinity, delay: 1 }}
+            src={AtmosLogo}
+            className={styles.image}
+            alt=""
+          />
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.05 }} className={styles.item}>
+          <motion.img
+            animate={{ y: [0, 7, 0] }}
+            transition={{ duration: 3, repeat: Infinity, delay: 2 }}
+            src={PearlLogo}
+            className={styles.image}
+            alt=""
+          />
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.05 }} className={styles.item}>
+          <motion.img
+            animate={{ y: [0, 7, 0] }}
+            transition={{ duration: 3, repeat: Infinity }}
+            src={OrbeNovoLogo}
+            className={styles.image}
+            alt=""
+          />
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.05 }} v className={styles.item}>
+          <motion.img
+            animate={{ y: [0, 7, 0] }}
+            transition={{ duration: 3, repeat: Infinity, delay: 1 }}
+            src={AtmosLogo}
+            className={styles.image}
+            alt=""
+          />
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.05 }} className={styles.item}>
+          <motion.img
+            animate={{ y: [0, 7, 0] }}
+            transition={{ duration: 3, repeat: Infinity, delay: 2 }}
+            src={PearlLogo}
+            className={styles.image}
+            alt=""
+          />
+        </motion.div>
       </Slider>
     </div>
   );
