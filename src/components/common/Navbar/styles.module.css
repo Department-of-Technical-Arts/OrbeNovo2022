@@ -1,0 +1,53 @@
+.wrapper {
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.BITS {
+  position: absolute;
+  transform: translate(-15%, -30%);
+}
+
+.text {
+  position: absolute;
+  left: 50%;
+  margin-top: 90px;
+  transform: translateX(-50%);
+  font-family: "Henny Penny", cursive;
+  font-size: 50px;
+  color: white;
+}
+
+.Button {
+  position: absolute;
+  right: 0;
+}
+
+@media only screen and (max-width: 1540px) {
+  .BITS {
+    height: 264px;
+  }
+  .text {
+    font-size: 35px;
+    margin-top: 40px;
+  }
+  .Button {
+    height: 142px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .BITS {
+    height: 168px;
+  }
+  .text {
+    font-size: 22px;
+    margin-top: 25px;
+  }
+  .Button {
+    height: 90px;
+  }
+}

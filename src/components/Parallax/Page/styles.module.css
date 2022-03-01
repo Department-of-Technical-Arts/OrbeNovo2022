@@ -1,12 +1,43 @@
 .Wrapper {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   /* height: calc(100vh + 250px);
   overflow-y: scroll; */
-  top: 50px;
-  /* background-color: black; */
+  margin-top: 50px;
   background-image: url("../../../assets/images/Cloud2.svg"),
     linear-gradient(to bottom, transparent, white 250px);
   background-repeat: no-repeat;
   background-position: top;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 1540px) {
+  .Wrapper {
+    margin-top: 50px;
+    width: 100vw;
+    background-image: url("../../../assets/images/Cloud2.svg"),
+      linear-gradient(to bottom, transparent, white 100px);
+    background-size: contain;
+    z-index: 2;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .Wrapper {
+    margin-top: 0px;
+    background-image: url("../../../assets/images/Cloud2.svg"),
+      linear-gradient(to bottom, transparent, white 100px);
+    background-size: contain;
+    z-index: 2;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .Wrapper {
+    margin-top: 0px;
+    background-image: url("../../../assets/images/Cloud2.svg"),
+      linear-gradient(to bottom, transparent, white 50px);
+    background-size: contain;
+    z-index: 2;
+  }
 }

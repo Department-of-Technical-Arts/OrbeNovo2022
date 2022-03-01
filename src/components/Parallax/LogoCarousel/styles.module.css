@@ -3,7 +3,7 @@
   position: fixed;
   margin-top: 50vh;
   transform: translateY(-50%);
-  z-index: 0;
+  z-index: 1;
 }
 
 .item {
@@ -15,4 +15,24 @@
   margin-right: auto;
   max-height: 407px;
   max-width: 407px;
+}
+
+@media only screen and (max-width: 1540px) {
+  .image {
+    max-height: 284px;
+    max-width: 284px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .image {
+    max-height: 180px;
+    max-width: 180px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .carousel {
+    display: none;
+  }
 }

@@ -9,20 +9,29 @@ import AboutUs from "../../components/HomeComponents/AboutUs";
 import Sponsors from "../../components/HomeComponents/Sponsors";
 import Proshows from "../../components/HomeComponents/Proshows";
 import Team from "../../components/HomeComponents/Team";
+import Navbar from "../../components/common/Navbar";
+import Footer from "../../components/common/Footer";
 
 export default function Index() {
+  const [index, setIndex] = React.useState(1);
   return (
     <>
-      <Background>
-        <LogoCarousel />
+      <Background index={index}>
+        <Navbar />
+        <LogoCarousel setIndex={setIndex} index={index} />
         <div className={styles.CloudWrapper}>
           <Cloud1 />
           <Page>
-            <AboutUs />
-            <Sponsors />
-            <Proshows />
-            <Team />
+            {index === 1 ? (
+              <>
+                <AboutUs />
+                <Sponsors />
+                <Proshows />
+                <Team />
+              </>
+            ) : null}
           </Page>
+          <Footer />
         </div>
       </Background>
     </>

@@ -1,40 +1,38 @@
+.bg {
+  width: 350px;
+  height: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../../../assets/images/TeamCard.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .wrapper {
   width: 100%;
-}
-.halo {
-  margin-left: auto;
-  margin-right: auto;
-}
-.content {
-  width: 408px;
-  height: 410px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  /* background-color: #2c3190; */
-  background-image: url("../../../assets/images/Rectangle\ 134.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  position: relative;
+  margin-bottom: 60px;
 }
 
 .textBox {
-  transform: translateY(-50%);
-  position: relative;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  bottom: 0;
+  width: 560px;
+  height: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../../../assets/images/TeamCloud.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .post {
   position: absolute;
   top: 0;
   right: 0;
-  width: 212px;
-  height: 94px;
-  background-image: url("../../../assets/images/Union\ 29.svg");
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  transform: translate(-100%, 100%);
   font-size: 20px;
   font-family: "Henny Penny", cursive;
   color: #ffffff;
@@ -52,13 +50,56 @@
   font-size: 24px;
   color: #ff18ef;
   height: 202px;
-  background-image: url("../../../assets/images/Union\ 28.svg");
-  background-position: center;
-  background-size: cover;
 }
 
 .phone {
   font-size: 20px;
   font-family: "Baskervville", serif;
   color: #2c3190;
+}
+
+@media only screen and (max-width: 1540px) {
+  .bg {
+    width: 245px;
+    height: 370px;
+    background-size: contain;
+  }
+  .textBox {
+    width: 392px;
+    height: 148px;
+  }
+  .post {
+    font-size: 14px;
+  }
+  .text {
+    font-size: 16px;
+    height: 140px;
+  }
+  .phone {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .bg {
+    width: 156px;
+    height: 237px;
+    background-size: contain;
+  }
+  .textBox {
+    width: 250px;
+    height: 92px;
+  }
+  .post {
+    font-size: 10px;
+  }
+  .text {
+    font-size: 12px;
+    height: 90px;
+  }
+  .phone {
+    margin-top: 8px;
+    font-size: 10px;
+  }
 }

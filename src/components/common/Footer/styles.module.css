@@ -1,0 +1,94 @@
+.wrapper {
+  width: 100vw;
+  height: 600px;
+  z-index: 2;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 140px;
+}
+
+.logo {
+  height: 486px;
+}
+
+.text {
+  font-family: "Henny Penny", cursive;
+  font-size: 50px;
+  color: #2c3190;
+}
+
+.logoGroup {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.social {
+  height: 48px;
+  width: 48px;
+}
+
+@media only screen and (max-width: 1540px) {
+  .wrapper {
+    height: 420px;
+    padding-left: 100px;
+  }
+
+  .logo {
+    height: 340px;
+  }
+
+  .text {
+    font-size: 36px;
+  }
+
+  .logoGroup {
+    margin-top: 35px;
+    gap: 28px;
+  }
+
+  .social {
+    height: 32px;
+    width: 32px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .wrapper {
+    height: 268px;
+    padding-left: 64px;
+  }
+
+  .logo {
+    height: 217px;
+  }
+
+  .text {
+    font-size: 24px;
+  }
+
+  .logoGroup {
+    margin-top: 22px;
+    gap: 18px;
+  }
+
+  .social {
+    height: 20px;
+    width: 20px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .wrapper {
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+  }
+  .logoGroup {
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 40px;
+  }
+}

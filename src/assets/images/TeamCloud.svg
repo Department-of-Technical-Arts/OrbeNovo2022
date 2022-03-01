@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="650.293" height="299" viewBox="0 0 650.293 299">
+  <defs>
+    <filter id="Union_26" x="0" y="7" width="649" height="292" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#6d8dad" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_27" x="348.293" y="0" width="302" height="184" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-color="#6d8dad" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_33" data-name="Group 33" transform="translate(-158 -5852.728)">
+    <g transform="matrix(1, 0, 0, 1, 158, 5852.73)" filter="url(#Union_26)">
+      <path id="Union_26-2" data-name="Union 26" d="M109.2,164.3A64.019,64.019,0,1,1,63.967,54.919a64.392,64.392,0,0,1,9.544.708A62.7,62.7,0,0,1,198.2,56.42a62.68,62.68,0,0,1,96.249,29.425,43.451,43.451,0,0,1,55.2,8.473A63.93,63.93,0,0,1,452.5,72.3a55.535,55.535,0,1,1,17.264,65.817,63.958,63.958,0,0,1-93.143,36.321,30.72,30.72,0,0,1-59.506-7.787H317a43.4,43.4,0,0,1-34.974-17.669,62.742,62.742,0,0,1-59.814,19.436A62.688,62.688,0,0,1,109.2,164.3Z" transform="translate(44 40)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 158, 5852.73)" filter="url(#Union_27)">
+      <path id="Union_27-2" data-name="Union 27" d="M104.188,75.02a29.979,29.979,0,0,1-48.854-5.574A29.342,29.342,0,1,1,20.242,27.934a24.931,24.931,0,0,1,48.533.227,30.01,30.01,0,0,1,30.32,2.629q-.035-.723-.035-1.454a29.344,29.344,0,0,1,57.5-8.261,34.384,34.384,0,1,1-3.454,51.3,24.928,24.928,0,0,1-48.916,2.641Z" transform="translate(604.29 127) rotate(180)" fill="#2c3190"/>
+    </g>
+  </g>
+</svg>
