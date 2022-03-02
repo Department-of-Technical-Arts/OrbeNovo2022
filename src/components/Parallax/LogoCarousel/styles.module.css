@@ -33,6 +33,10 @@
 
 @media only screen and (max-width: 576px) {
   .carousel {
-    display: none;
+    transform: translateY(-150px);
+  }
+  .image {
+    max-height: 100px;
+    max-width: 100px;
   }
 }

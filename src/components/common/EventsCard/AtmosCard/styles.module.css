@@ -3,9 +3,10 @@
   height: 530px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../../../assets/images/TeamCard.svg");
+  background-image: url("../../../../assets/images/AtmosCard.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 .wrapper {
   width: 100%;
@@ -13,50 +14,54 @@
   margin-bottom: 60px;
 }
 
-.pfp {
-  position: absolute;
-  height: 410px;
-  width: 410px;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .textBox {
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, 50%);
+  left: 100%;
+  transform: translate(-100%, -180%);
   bottom: 0;
-  width: 560px;
-  height: 210px;
+  width: 262px;
+  height: 70px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../../../assets/images/TeamCloud.svg");
+  background-image: url("../../../../assets/images/AtmosAction.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .post {
   position: absolute;
   top: 0;
-  right: 0;
-  transform: translate(-130%, 75%);
-  font-size: 20px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 21px;
   font-family: "Henny Penny", cursive;
   color: #ffffff;
   text-align: center;
 }
 
+.poster {
+  position: absolute;
+  height: 311px;
+  width: 311px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
 .text {
+  position: relative;
   width: 100%;
+  top: 100%;
+  transform: translate(0%, -90%);
+  left: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   text-align: left;
-  font-family: "Henny Penny", cursive;
-  font-size: 24px;
+  /* font-family: "Henny Penny", cursive; */
+  font-size: 28px;
   color: #ff18ef;
   height: 202px;
 }
@@ -70,22 +75,23 @@
 @media only screen and (max-width: 1540px) {
   .bg {
     width: 245px;
-    height: 370px;
-    background-size: contain;
+    height: 371px;
   }
-  .pfp {
-    height: 287px;
-    width: 287px;
+
+  .poster {
+    height: 217px;
+    width: 217px;
   }
+
   .textBox {
-    width: 392px;
-    height: 148px;
+    width: 184px;
+    height: 50px;
   }
   .post {
     font-size: 14px;
   }
   .text {
-    font-size: 16px;
+    font-size: 18px;
     height: 140px;
   }
   .phone {
@@ -98,25 +104,33 @@
   .bg {
     width: 156px;
     height: 237px;
-    background-size: contain;
   }
-  .pfp {
-    height: 184px;
-    width: 184px;
+
+  .poster {
+    height: 140px;
+    width: 140px;
   }
+
   .textBox {
-    width: 250px;
-    height: 92px;
+    width: 117px;
+    height: 32px;
   }
   .post {
     font-size: 10px;
   }
   .text {
-    font-size: 12px;
+    font-size: 14px;
     height: 90px;
   }
   .phone {
-    margin-top: 8px;
-    font-size: 10px;
+    margin-top: 16px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .textBox {
+    left: 50%;
+    transform: translate(0%, -180%);
   }
 }

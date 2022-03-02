@@ -6,6 +6,6 @@
       <path d="M 226.5868835449219 66.88105773925781 L -15.55569553375244 66.88105773925781 L -29.38507652282715 0.4999855160713196 L 261.1603698730469 0.4999855160713196 L 226.5868835449219 66.88105773925781 Z" stroke="none"/>
       <path d="M -28.77023315429688 0.9999847412109375 L -15.14915466308594 66.38105773925781 L 226.2835540771484 66.38105773925781 L 260.336181640625 0.9999847412109375 L -28.77023315429688 0.9999847412109375 M -30 -1.52587890625e-05 L 261.9845275878906 -1.52587890625e-05 L 226.8902282714844 67.38105773925781 L -15.9622802734375 67.38105773925781 L -30 -1.52587890625e-05 Z" stroke="none" fill="#2c3190"/>
     </g>
-    <text id="Get_your_Tickets_" data-name="Get your Tickets!" transform="translate(438.492 4368.731)" fill="#ff18ef" font-size="27" font-family="HennyPenny-Regular, Henny Penny"><tspan x="-106" y="0">Get your Tickets!</tspan></text>
+    <!-- <text id="Get_your_Tickets_" data-name="Get your Tickets!" transform="translate(438.492 4368.731)" fill="#ff18ef" font-size="27" font-family="HennyPenny-Regular, Henny Penny"><tspan x="-106" y="0">Get your Tickets!</tspan></text> -->
   </g>
 </svg>

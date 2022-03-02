@@ -6,7 +6,7 @@ import Title from "../../common/Text/Title";
 import CloudDown from "../../common/Clouds/CloudDown";
 import ProshowCard from "../../common/ProshowCard";
 
-function Index() {
+function Index({ proshowData }) {
   return (
     <>
       <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" offset={150}>
@@ -17,9 +17,9 @@ function Index() {
 
           <div className="col-span-10">
             <div className="grid grid-cols-2">
-              {[1, 2, 3, 4].map((item, index) => (
+              {proshowData.map((item, index) => (
                 <div key={index} className="col-span-2 sm:col-span-1">
-                  <ProshowCard index={index} />
+                  <ProshowCard index={index} item={item} />
                 </div>
               ))}
             </div>

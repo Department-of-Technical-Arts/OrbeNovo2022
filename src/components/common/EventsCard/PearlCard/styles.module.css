@@ -3,9 +3,10 @@
   height: 530px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../../../assets/images/TeamCard.svg");
+  background-image: url("../../../../assets/images/EventsCard.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 .wrapper {
   width: 100%;
@@ -13,25 +14,16 @@
   margin-bottom: 60px;
 }
 
-.pfp {
-  position: absolute;
-  height: 410px;
-  width: 410px;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .textBox {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 0%);
   bottom: 0;
   width: 560px;
   height: 210px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../../../assets/images/TeamCloud.svg");
+  background-image: url("../../../../assets/images/EventsCloud.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,21 +33,31 @@
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(-130%, 75%);
+  transform: translate(-140%, 100%);
   font-size: 20px;
   font-family: "Henny Penny", cursive;
   color: #ffffff;
   text-align: center;
 }
 
+.poster {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .text {
   width: 100%;
+  transform: translateY(10px);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   text-align: left;
-  font-family: "Henny Penny", cursive;
+  /* font-family: "Henny Penny", cursive; */
   font-size: 24px;
   color: #ff18ef;
   height: 202px;
@@ -73,10 +75,12 @@
     height: 370px;
     background-size: contain;
   }
-  .pfp {
-    height: 287px;
-    width: 287px;
+
+  .poster {
+    height: 210px;
+    width: 210px;
   }
+
   .textBox {
     width: 392px;
     height: 148px;
@@ -100,9 +104,9 @@
     height: 237px;
     background-size: contain;
   }
-  .pfp {
-    height: 184px;
-    width: 184px;
+  .poster {
+    height: 130px;
+    width: 130px;
   }
   .textBox {
     width: 250px;

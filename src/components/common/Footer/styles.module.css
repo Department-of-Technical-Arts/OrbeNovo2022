@@ -19,10 +19,14 @@
   color: #2c3190;
 }
 
+.fest {
+  font-size: 20px;
+}
+
 .logoGroup {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 25px;
   gap: 40px;
 }
 
@@ -46,7 +50,7 @@
   }
 
   .logoGroup {
-    margin-top: 35px;
+    margin-top: 20px;
     gap: 28px;
   }
 
@@ -71,7 +75,7 @@
   }
 
   .logoGroup {
-    margin-top: 22px;
+    margin-top: 16px;
     gap: 18px;
   }
 

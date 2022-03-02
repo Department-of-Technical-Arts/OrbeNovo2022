@@ -3,7 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 import styles from "./styles.module.css";
 
-function Index({ index }) {
+function Index({ index, item }) {
   return (
     <div
       className={styles.wrapper}
@@ -12,7 +12,7 @@ function Index({ index }) {
         marginLeft: index % 2 === 1 ? 50 : 0,
       }}
     >
-      Index
+      <img src={item.pic} alt="" className={styles.pic} loading="eager" />
     </div>
   );
 }

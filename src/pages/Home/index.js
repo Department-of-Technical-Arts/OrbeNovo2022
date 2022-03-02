@@ -9,13 +9,22 @@ import AboutUs from "../../components/HomeComponents/AboutUs";
 import Sponsors from "../../components/HomeComponents/Sponsors";
 import Proshows from "../../components/HomeComponents/Proshows";
 import Team from "../../components/HomeComponents/Team";
+import Events from "../../components/HomeComponents/Events";
 import Navbar from "../../components/common/Navbar";
 import Footer from "../../components/common/Footer";
+import { motion } from "framer-motion";
 
-export default function Index() {
+export default function Index({
+  teamData,
+  atmosData,
+  sponsData,
+  pearlData,
+  proshowData,
+}) {
   const [index, setIndex] = React.useState(1);
+
   return (
-    <>
+    <motion.div animate={{ opacity: [0, 1] }}>
       <Background index={index}>
         <Navbar />
         <LogoCarousel setIndex={setIndex} index={index} />
@@ -25,15 +34,23 @@ export default function Index() {
             {index === 1 ? (
               <>
                 <AboutUs />
-                <Sponsors />
-                <Proshows />
-                <Team />
+                <Sponsors sponsData={sponsData} />
+                <Proshows proshowData={proshowData} />
+                <Team teamData={teamData} />
               </>
-            ) : null}
+            ) : (
+              <>
+                <Events
+                  atmosData={atmosData}
+                  pearlData={pearlData}
+                  index={index}
+                />
+              </>
+            )}
           </Page>
           <Footer />
         </div>
       </Background>
-    </>
+    </motion.div>
   );
 }

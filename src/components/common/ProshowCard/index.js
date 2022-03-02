@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import styles from "./styles.module.css";
 import { WindowWidth } from "../../../utils/WinDim";
 
-function Index({ index }) {
+function Index({ index, item }) {
   return (
     <>
       <div
@@ -17,8 +17,9 @@ function Index({ index }) {
             : { marginTop: 50 }
         }
       >
-        Index
+        <img src={item.photo} alt="" className="p-1 lg:p-2 2xl:p-3" />
       </div>
+      <p className={styles.text}>{item.status}</p>
     </>
   );
 }

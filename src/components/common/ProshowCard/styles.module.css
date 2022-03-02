@@ -20,14 +20,12 @@
 }
 
 .text {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  width: 100%;
+  position: relative;
+  top: -60px;
+  left: 10px;
   text-align: center;
   font-family: "Henny Penny", cursive;
-  font-size: 24px;
+  font-size: 28px;
   color: #ff18ef;
 }
 
@@ -37,6 +35,11 @@
     height: 448px;
     background-size: cover;
   }
+  .text {
+    top: -40px;
+    left: 7px;
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -44,5 +47,10 @@
     width: 180px;
     height: 286px;
     background-size: cover;
+  }
+  .text {
+    top: -27px;
+    left: 5px;
+    font-size: 14px;
   }
 }

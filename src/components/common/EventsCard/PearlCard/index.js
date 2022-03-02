@@ -2,7 +2,7 @@ import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
 import styles from "./styles.module.css";
-import { WindowWidth } from "../../../utils/WinDim";
+import { WindowWidth } from "../../../../utils/WinDim";
 
 function Index({ index, item }) {
   return (
@@ -12,19 +12,19 @@ function Index({ index, item }) {
         style={
           WindowWidth > 576
             ? {
-                marginTop: index % 2 === 1 ? 50 : 0,
+                marginTop: index % 3 === 1 ? 50 : 0,
               }
             : null
         }
       >
-        <img src={item.Pfp} alt="" className={styles.pfp} />
+        <img src={item.poster} alt="" className={styles.poster} />
         <div className={styles.textBox}>
           <div className={styles.post}>
-            <p>{item.Post}</p>
+            <p>View More</p>
           </div>
           <div className={styles.text}>
-            <p>{item.Name}</p>
-            <p className={styles.phone}>{item.Phone}</p>
+            <p>{item.title}</p>
+            {/* <p className={styles.phone}>Dolor sit</p> */}
           </div>
         </div>
       </div>

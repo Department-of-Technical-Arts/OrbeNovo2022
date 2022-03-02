@@ -1,0 +1,15 @@
+.poster {
+  height: 700px;
+}
+
+@media only screen and (max-width: 1540px) {
+  .poster {
+    height: 490px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .poster {
+    height: 310px;
+  }
+}

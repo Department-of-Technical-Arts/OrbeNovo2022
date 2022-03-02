@@ -27,9 +27,24 @@ function Index() {
             content="president@hyderabad.bits-pilani.ac.in"
           />
           <div className={styles.logoGroup}>
-            <FaFacebookF className={styles.social} />
-            <BsYoutube className={styles.social} />
-            <BsInstagram className={styles.social} />
+            <p className={styles.fest}>Atmos </p>
+            <a href="https://www.facebook.com/bits.atmos" target="_blank">
+              <FaFacebookF className={styles.social} />
+            </a>
+            <a href="https://www.instagram.com/atmos.bitsh/" target="_blank">
+              <BsInstagram className={styles.social} />
+            </a>
+          </div>
+          <div className={styles.logoGroup}>
+            <p className={styles.fest}>
+              Pearl<span className="whitespace-pre-wrap">{"\t"}</span>
+            </p>
+            <a href="https://www.facebook.com/bitspearl/" target="_blank">
+              <FaFacebookF className={styles.social} />
+            </a>
+            <a href="https://www.instagram.com/pearl.bitsh/" target="_blank">
+              <BsInstagram className={styles.social} />
+            </a>
           </div>
         </div>
       </div>
