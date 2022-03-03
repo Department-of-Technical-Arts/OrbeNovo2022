@@ -6,8 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Home from "./pages/Home";
 import EventDetail from "./pages/EventDetail";
-import { db } from "./firebase/index";
-import { collection, getDocs, orderBy, query } from "firebase/firestore";
 import { Route, Routes } from "react-router-dom";
 import ScrollToTop from "./helpers/ScrollToTop";
 import { atmosData } from "./utils/AtmosData";

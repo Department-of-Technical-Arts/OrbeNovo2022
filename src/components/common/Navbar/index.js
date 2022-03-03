@@ -3,7 +3,6 @@ import React from "react";
 import styles from "./styles.module.css";
 import BITS from "../../../assets/images/BITS.png";
 import Brochure from "../../../assets/images/Brochure.svg";
-import { uploadData } from "../../../firebase/Database";
 
 function Index() {
   return (
