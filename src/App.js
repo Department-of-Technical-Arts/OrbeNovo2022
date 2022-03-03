@@ -31,10 +31,16 @@ function App() {
     const proshow = await getDocs(t);
 
     atmos.forEach((doc) => {
-      setAtmosData((prevState) => [...prevState, doc.data()]);
+      const id = { id: doc.id };
+      const obj = doc.data();
+      Object.assign(obj, id);
+      setAtmosData((prevState) => [...prevState, obj]);
     });
     pearl.forEach((doc) => {
-      setPearlData((prevState) => [...prevState, doc.data()]);
+      const id = { id: doc.id };
+      const obj = doc.data();
+      Object.assign(obj, id);
+      setPearlData((prevState) => [...prevState, obj]);
     });
     team.forEach((doc) => {
       setTeamData((prevState) => [...prevState, doc.data()]);
@@ -68,7 +74,7 @@ function App() {
             element={<EventDetail data={atmosData.concat(pearlData)} />}
           >
             <Route
-              path=":eventName"
+              path=":slugId"
               element={<EventDetail data={atmosData.concat(pearlData)} />}
             />
           </Route>

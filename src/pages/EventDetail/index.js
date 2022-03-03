@@ -10,13 +10,13 @@ import styles from "./styles.module.css";
 import Shadow from "../../assets/images/shadow.png";
 
 function Index({ data }) {
-  const { eventName } = useParams();
+  const { slugId } = useParams();
 
   const getEvent = async () => {
-    const q = query(collection(db, "pearl"), where("title", "==", eventName));
+    const q = query(collection(db, "pearl"), where("title", "==", slugId));
     const atmos = await getDocs(q);
     atmos.forEach((doc) => {
-      data = doc.data;
+      data.id = doc.id;
     });
   };
 
@@ -26,7 +26,7 @@ function Index({ data }) {
     }
   }, []);
 
-  const result = data.filter((item) => item.title.includes(eventName));
+  const result = data.filter((item) => item.id.includes(slugId));
 
   return (
     result && (
@@ -58,7 +58,7 @@ function Index({ data }) {
             {result[0]?.title}
           </p>
           {result[0]?.isWorkshop ? (
-            <p className="lg:text-lg 2xl:text-xl bg-purple-400 max-w-min p-1.5 rounded-xl text-white">
+            <p className="lg:text-lg 2xl:text-xl bg-purple-400 max-w-min p-1.5 mb-3 rounded-xl text-white">
               Workshop
             </p>
           ) : null}

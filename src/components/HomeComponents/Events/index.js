@@ -22,7 +22,7 @@ function Index({ index, atmosData, pearlData }) {
               {index === 2
                 ? atmosData.map((item, index) => (
                     <Link
-                      to={`event/${item.title}`}
+                      to={`event/${item.id}`}
                       className="col-span-3 sm:col-span-1"
                     >
                       <div key={index}>
@@ -33,7 +33,7 @@ function Index({ index, atmosData, pearlData }) {
                 : index === 3
                 ? pearlData.map((item, index) => (
                     <Link
-                      to={`event/${item.title}`}
+                      to={`event/${item.id}`}
                       className="col-span-3 sm:col-span-1"
                     >
                       <div key={index}>
