@@ -10,47 +10,51 @@ import { db } from "./firebase/index";
 import { collection, getDocs, orderBy, query } from "firebase/firestore";
 import { Route, Routes } from "react-router-dom";
 import ScrollToTop from "./helpers/ScrollToTop";
+import { atmosData } from "./utils/AtmosData";
+import { pearlData } from "./utils/PearlData";
+import { teamData } from "./utils/TeamData";
+import { sponsData } from "./utils/SponsData";
+import { proshowData } from "./utils/ProshowData";
 
 function App() {
-  const [teamData, setTeamData] = React.useState([]);
-  const [atmosData, setAtmosData] = React.useState([]);
-  const [sponsData, setSponsData] = React.useState([]);
-  const [pearlData, setPearlData] = React.useState([]);
-  const [proshowData, setProshowData] = React.useState([]);
+  // const [teamData, setTeamData] = React.useState([]);
+  // const [atmosData, setAtmosData] = React.useState([]);
+  // const [sponsData, setSponsData] = React.useState([]);
+  // const [pearlData, setPearlData] = React.useState([]);
+  // const [proshowData, setProshowData] = React.useState([]);
 
   React.useEffect(async () => {
-    const q = query(collection(db, "atmos"));
-    const p = query(collection(db, "team"), orderBy("id", "asc"));
-    const r = query(collection(db, "spons"));
-    const s = query(collection(db, "pearl"));
-    const t = query(collection(db, "proshow"), orderBy("id", "asc"));
-    const atmos = await getDocs(q);
-    const team = await getDocs(p);
-    const spons = await getDocs(r);
-    const pearl = await getDocs(s);
-    const proshow = await getDocs(t);
-
-    atmos.forEach((doc) => {
-      const id = { id: doc.id };
-      const obj = doc.data();
-      Object.assign(obj, id);
-      setAtmosData((prevState) => [...prevState, obj]);
-    });
-    pearl.forEach((doc) => {
-      const id = { id: doc.id };
-      const obj = doc.data();
-      Object.assign(obj, id);
-      setPearlData((prevState) => [...prevState, obj]);
-    });
-    team.forEach((doc) => {
-      setTeamData((prevState) => [...prevState, doc.data()]);
-    });
-    spons.forEach((doc) => {
-      setSponsData((prevState) => [...prevState, doc.data()]);
-    });
-    proshow.forEach((doc) => {
-      setProshowData((prevState) => [...prevState, doc.data()]);
-    });
+    // const q = query(collection(db, "atmos"));
+    // const p = query(collection(db, "team"), orderBy("id", "asc"));
+    // const r = query(collection(db, "spons"));
+    // const s = query(collection(db, "pearl"));
+    // const t = query(collection(db, "proshow"), orderBy("id", "asc"));
+    // const atmos = await getDocs(q);
+    // const team = await getDocs(p);
+    // const spons = await getDocs(r);
+    // const pearl = await getDocs(s);
+    // const proshow = await getDocs(t);
+    // atmos.forEach((doc) => {
+    //   const id = { id: doc.id };
+    //   const obj = doc.data();
+    //   Object.assign(obj, id);
+    //   setAtmosData((prevState) => [...prevState, obj]);
+    // });
+    // pearl.forEach((doc) => {
+    //   const id = { id: doc.id };
+    //   const obj = doc.data();
+    //   Object.assign(obj, id);
+    //   setPearlData((prevState) => [...prevState, obj]);
+    // });
+    // team.forEach((doc) => {
+    //   setTeamData((prevState) => [...prevState, doc.data()]);
+    // });
+    // spons.forEach((doc) => {
+    //   setSponsData((prevState) => [...prevState, doc.data()]);
+    // });
+    // proshow.forEach((doc) => {
+    //   setProshowData((prevState) => [...prevState, doc.data()]);
+    // });
   }, []);
 
   return (

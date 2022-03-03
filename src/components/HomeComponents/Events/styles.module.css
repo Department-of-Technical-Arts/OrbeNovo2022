@@ -1,0 +1,37 @@
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.backgroundText {
+  font-family: "Henny Penny", cursive;
+  font-size: 150px;
+  color: #b8408a;
+}
+.text {
+  font-family: "Henny Penny", cursive;
+  font-size: 60px;
+  color: #fff;
+  position: absolute;
+  display: none;
+}
+
+@media only screen and (max-width: 1540px) {
+  .backgroundText {
+    font-size: 100px;
+  }
+  .text {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .backgroundText {
+    font-size: 64px;
+  }
+  .text {
+    font-size: 24px;
+  }
+}

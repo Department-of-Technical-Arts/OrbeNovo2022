@@ -11,7 +11,7 @@ function Index() {
       <div className={styles.wrapper}>
         <img src={BITS} alt="" className={styles.BITS} />
         <p className={styles.text}>29th March - 3rd April</p>
-        <div
+        {/* <div
         // onClick={() => uploadData()}
         >
           <a
@@ -20,7 +20,7 @@ function Index() {
           >
             <img src={Brochure} alt="" className={styles.Button} />
           </a>
-        </div>
+        </div> */}
       </div>
     </>
   );

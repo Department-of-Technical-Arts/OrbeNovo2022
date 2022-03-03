@@ -8,18 +8,20 @@
 }
 
 .BITS {
-  position: absolute;
+  /* position: absolute; */
   transform: translate(-15%, -30%);
 }
 
 .text {
-  position: absolute;
-  left: 50%;
-  margin-top: 90px;
-  transform: translateX(-50%);
+  /* position: absolute;
+  left: 50%; */
+  /* margin-top: 90px; */
+  margin-top: 50px;
+  /* transform: translateX(-50%); */
   font-family: "Henny Penny", cursive;
   font-size: 50px;
   color: white;
+  padding: 16px;
 }
 
 .Button {
@@ -33,7 +35,7 @@
   }
   .text {
     font-size: 35px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .Button {
     height: 142px;
@@ -46,7 +48,7 @@
   }
   .text {
     font-size: 22px;
-    margin-top: 25px;
+    margin-top: 20px;
   }
   .Button {
     height: 90px;
@@ -57,6 +59,7 @@
   .text {
     /* display: none; */
     /* left: 0; */
+    position: absolute;
     margin-top: 100px;
     width: 100%;
     text-align: center;

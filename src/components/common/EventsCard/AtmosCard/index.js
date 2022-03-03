@@ -20,7 +20,7 @@ function Index({ index, item }) {
         <img src={item.poster} alt="" className={styles.poster} />
         <div className={styles.textBox}>
           <div className={styles.post}>
-            <p>Register Now</p>
+            <p>View More</p>
           </div>
         </div>
         <div className={styles.text}>

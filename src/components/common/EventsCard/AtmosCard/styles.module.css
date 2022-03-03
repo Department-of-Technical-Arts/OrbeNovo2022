@@ -35,7 +35,7 @@
   left: 50%;
   transform: translate(-50%, 50%);
   font-size: 21px;
-  font-family: "Henny Penny", cursive;
+  /* font-family: "Henny Penny", cursive; */
   color: #ffffff;
   text-align: center;
 }
@@ -59,10 +59,12 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  text-align: left;
+  text-align: center;
   /* font-family: "Henny Penny", cursive; */
   font-size: 28px;
-  color: #ff18ef;
+  color: #000;
+  font-weight: bold;
+  /* color: #ff18ef; */
   height: 202px;
 }
 

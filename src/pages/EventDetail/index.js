@@ -1,32 +1,18 @@
 import React from "react";
 
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { IoMdArrowBack } from "react-icons/io";
-import { collection, getDocs, query, where } from "firebase/firestore";
 
-import { db } from "../../firebase";
 import styles from "./styles.module.css";
 import Shadow from "../../assets/images/shadow.png";
 
 function Index({ data }) {
   const { slugId } = useParams();
-
-  const getEvent = async () => {
-    const q = query(collection(db, "pearl"), where("title", "==", slugId));
-    const atmos = await getDocs(q);
-    atmos.forEach((doc) => {
-      data.id = doc.id;
-    });
-  };
-
-  React.useEffect(() => {
-    if (data === []) {
-      getEvent();
-    }
-  }, []);
-
-  const result = data.filter((item) => item.id.includes(slugId));
+  const navigate = useNavigate();
+  // const { state } = useLocation();
+  // const index = state.index;
+  const result = data.filter((item) => item.id === slugId);
 
   return (
     result && (
@@ -45,15 +31,15 @@ function Index({ data }) {
           <img src={Shadow} alt="" className="absolute bottom-0 opacity-80" />
         </div>
         <div className="col-span-2 lg:col-span-1 flex flex-col justify-center  p-9 pl-14">
-          <Link to={"/"}>
-            <motion.div
-              whileHover={{ x: -10 }}
-              className="flex flex-row items-center lg:text-lg 2xl:text-xl"
-            >
-              <IoMdArrowBack />
-              <p> Back to Homepage</p>
-            </motion.div>
-          </Link>
+          <motion.div
+            whileHover={{ x: -10 }}
+            className="flex flex-row items-center lg:text-lg 2xl:text-xl cursor-pointer"
+            onClick={() => navigate("/")}
+          >
+            <IoMdArrowBack />
+            <p> Back to Homepage</p>
+          </motion.div>
+
           <p className="text-lg lg:text-xl 2xl:text-2xl font-bold mt-5 mb-5">
             {result[0]?.title}
           </p>
