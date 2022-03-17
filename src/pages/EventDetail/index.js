@@ -3,88 +3,92 @@ import React from "react";
 import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { IoMdArrowBack } from "react-icons/io";
+import posterBg from "../../assets/images/Path 364.svg";
+import posterYellow from "../../assets/images/Path 365.svg";
+import register from "../../assets/images/Subtraction 48.png";
 
 import styles from "./styles.module.css";
-import Shadow from "../../assets/images/shadow.png";
 
 function Index({ data }) {
   const { slugId } = useParams();
   const navigate = useNavigate();
-  // const { state } = useLocation();
-  // const index = state.index;
   const result = data.filter((item) => item.id === slugId);
 
   return (
     result && (
-      <motion.div
-        animate={{ opacity: [0, 1] }}
-        className="grid grid-cols-2 w-screen h-screen"
-      >
-        <div className="col-span-2 lg:col-span-1 bg-gray-300 flex justify-center items-center">
-          <motion.img
-            animate={{ y: [0, 7, 0] }}
-            transition={{ duration: 3, repeat: Infinity }}
-            src={result[0]?.poster}
-            alt=""
-            className={styles.poster}
-          />
-          <img src={Shadow} alt="" className="absolute bottom-0 opacity-80" />
+      <>
+        <div className={styles.navigationMobile} onClick={() => navigate(-1)}>
+          <IoMdArrowBack color="white" size={32} />
+          <p className={styles.navigationText}>Back to Events</p>
         </div>
-        <div className="col-span-2 lg:col-span-1 flex flex-col justify-center  p-9 pl-14">
-          <motion.div
-            whileHover={{ x: -10 }}
-            className="flex flex-row items-center lg:text-lg 2xl:text-xl cursor-pointer"
-            onClick={() => navigate("/")}
-          >
-            <IoMdArrowBack />
-            <p> Back to Homepage</p>
-          </motion.div>
-
-          <p className="text-lg lg:text-xl 2xl:text-2xl font-bold mt-5 mb-5">
-            {result[0]?.title}
-          </p>
-          {result[0]?.isWorkshop ? (
-            <p className="lg:text-lg 2xl:text-xl bg-purple-400 max-w-min p-1.5 mb-3 rounded-xl text-white">
-              Workshop
-            </p>
-          ) : null}
-          {result[0]?.organiser && (
-            <div className="mt-5 mb-5">
-              <p className="font-semibold">Organised By</p>
-              <p className=" text-xl 2xl:text-2xl">{result[0]?.organiser}</p>
+        <motion.div animate={{ opacity: [0, 1] }} className={styles.wrapper}>
+          <div className={styles.title}>
+            <p className={styles.titleText}>{result[0].title}</p>
+          </div>
+          <div className={styles.posterBg}>
+            <img src={posterBg} alt="" />
+            <img src={posterYellow} alt="" className={styles.posterYellow} />
+            <img src={result[0].poster} alt="" className={styles.poster} />
+            <p className={styles.posterYellowText}>{result[0].title}</p>
+          </div>
+          <div className={styles.content}>
+            <div className={styles.navigation} onClick={() => navigate(-1)}>
+              <IoMdArrowBack color="white" size={32} />
+              <p className={styles.navigationText}>Back to Events</p>
             </div>
-          )}
-          {result[0]?.description && (
-            <p className="text-lg 2xl:text-xl mb-5 lg:pr-10">
-              {result[0]?.description}
+            <div>
+              <p className={styles.summary}>
+                The acronym of ATMOS-Assimilation of Technically Motivated Souls
+                - is a true representation of what we are. The national
+                techno-management fest of BITS Pilani Hyderabad Campus has grown
+                from pillar to pillar in strength since its inception in 2012.
+                Spanning over 2 days from the 30th - 31st of March, ATMOS brings
+                to you a plethora of exciting contests, workshops, lectures and
+                much more!
+              </p>
+              <div className={styles.poc}>
+                <p className={styles.pocText}>PoC</p>
+                <p className={styles.pocText}>{result[0]?.pocName1}</p>
+                <p className={styles.pocText}>{result[0]?.pocNumber1}</p>
+                <p className={styles.pocText}>{result[0]?.pocName2}</p>
+                <p className={styles.pocText}>{result[0]?.pocNumber2}</p>
+              </div>
+            </div>
+            <div className={styles.registerBg}>
+              <img src={register} alt="" />
+              <p className={styles.registerText}>
+                {result[0].link ? "Register" : "Coming Soon"}
+              </p>
+            </div>
+          </div>
+        </motion.div>
+        <div className={styles.contentMobile}>
+          <div>
+            <p className={styles.summary}>
+              The acronym of ATMOS-Assimilation of Technically Motivated Souls -
+              is a true representation of what we are. The national
+              techno-management fest of BITS Pilani Hyderabad Campus has grown
+              from pillar to pillar in strength since its inception in 2012.
+              Spanning over 2 days from the 30th - 31st of March, ATMOS brings
+              to you a plethora of exciting contests, workshops, lectures and
+              much more!
             </p>
-          )}
-          {result[0]?.prize && (
-            <p className="font-semibold text-center text-lg lg:text-xl 2xl:text-2xl">
-              Prizes Worth: Rs. {result[0]?.prize}
+            <div className={styles.poc}>
+              <p className={styles.pocText}>PoC</p>
+              <p className={styles.pocText}>{result[0]?.pocName1}</p>
+              <p className={styles.pocText}>{result[0]?.pocNumber1}</p>
+              <p className={styles.pocText}>{result[0]?.pocName2}</p>
+              <p className={styles.pocText}>{result[0]?.pocNumber2}</p>
+            </div>
+          </div>
+          <div className={styles.registerBg}>
+            <img src={register} alt="" />
+            <p className={styles.registerText}>
+              {result[0].link ? "Register" : "Coming Soon"}
             </p>
-          )}
-
-          <motion.a
-            href={"http://" + result[0]?.link}
-            target="_blank"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.98 }}
-            className="p-2 ml-auto mr-auto m-3 text-white bg-blue-700 hover:bg-blue-500 max-w-max rounded-xl"
-          >
-            <motion.button>Register Now</motion.button>
-          </motion.a>
-          <div className="text-right mt-5">
-            <p className="font-semibold lg:text-lg 2xl:text-xl">
-              Point of Contact
-            </p>
-            <p className="lg:text-lg 2xl:text-xl">{result[0]?.pocName1}</p>
-            <p className="lg:text-lg 2xl:text-xl">{result[0]?.pocNumber1}</p>
-            <p className="lg:text-lg 2xl:text-xl">{result[0]?.pocName2}</p>
-            <p className="lg:text-lg 2xl:text-xl">{result[0]?.pocNumber2}</p>
           </div>
         </div>
-      </motion.div>
+      </>
     )
   );
 }

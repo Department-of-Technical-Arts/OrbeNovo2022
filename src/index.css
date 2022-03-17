@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Moreland";
+  src: local("Moreland"), url(./assets/fonts/Moreland.ttf) format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +15,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Baskervville", serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *::-webkit-scrollbar {

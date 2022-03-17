@@ -1,10 +1,11 @@
-.CloudWrapper {
+.wrapper {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  align-items: center;
+  height: 100vh;
   width: 100vw;
-  top: 50%;
-  background-color: transparent;
+  z-index: -2;
+  /* background-image: url("../../assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0; */
 }

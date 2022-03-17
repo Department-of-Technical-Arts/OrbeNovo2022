@@ -44,12 +44,12 @@
 
 @media only screen and (max-width: 992px) {
   .wrapper {
-    width: 180px;
-    height: 286px;
+    width: 126px;
+    height: 200px;
     background-size: cover;
   }
   .text {
-    top: -27px;
+    top: -25px;
     left: 5px;
     font-size: 14px;
   }

@@ -3,9 +3,7 @@ import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
 import Title from "../../common/Text/Title";
-import TeamCard from "../../common/TeamCard";
-import Cloud from "../../../assets/images/EndCloud.svg";
-
+import President from "../../../assets/images/Group 55.png";
 function Index({ teamData }) {
   return (
     <>
@@ -21,13 +19,16 @@ function Index({ teamData }) {
                 index < 3 ? (
                   <div
                     key={index}
-                    className="col-span-6 sm:col-span-3 xl:col-span-2"
+                    className="col-span-3 xl:col-span-2 flex flex-row justify-center 2xl:scale-100 lg:scale-75"
                   >
-                    <TeamCard index={index} item={item} />
+                    <img src={President} alt="" />
                   </div>
                 ) : (
-                  <div key={index} className="col-span-6 sm:col-span-3 ">
-                    <TeamCard index={index} item={item} />
+                  <div
+                    key={index}
+                    className="col-span-3 flex flex-row justify-center 2xl:scale-100 lg:scale-75"
+                  >
+                    <img src={President} alt="" />
                   </div>
                 )
               )}
@@ -35,7 +36,6 @@ function Index({ teamData }) {
           </div>
         </div>
       </ScrollAnimation>
-      <img src={Cloud} alt="" />
     </>
   );
 }

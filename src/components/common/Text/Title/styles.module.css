@@ -6,15 +6,16 @@
 }
 
 .backgroundText {
-  font-family: "Henny Penny", cursive;
+  font-family: "Moreland";
   font-size: 150px;
-  color: rgb(255, 24, 239, 0.25);
+  color: #000000;
+  opacity: 0.25;
 }
 
 .text {
-  font-family: "Henny Penny", cursive;
+  font-family: "Moreland";
   font-size: 60px;
-  color: #2c3190;
+  color: #fff;
   position: absolute;
 }
 

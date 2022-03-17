@@ -2,7 +2,7 @@
   width: 100vw;
   height: 600px;
   z-index: 2;
-  background-color: white;
+  /* background-color: black; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -16,11 +16,12 @@
 .text {
   font-family: "Henny Penny", cursive;
   font-size: 50px;
-  color: #2c3190;
+  color: #fff;
 }
 
 .fest {
   font-size: 20px;
+  color: #fff;
 }
 
 .logoGroup {

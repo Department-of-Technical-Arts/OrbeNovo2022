@@ -15,24 +15,24 @@ function Index() {
         <div className="ml-auto mr-auto">
           <p className={styles.text}>Feel free to connect</p>
           <BodyText
-            style={{ color: "#2C3190" }}
+            style={{ color: "#fff" }}
             content="BITS Pilani, Hyderabad Campus"
           />
           <BodyText
-            style={{ color: "#2C3190" }}
+            style={{ color: "#fff" }}
             content="Hyderabad, Telangana - 500078"
           />
           <BodyText
-            style={{ color: "#2C3190" }}
+            style={{ color: "#fff" }}
             content="president@hyderabad.bits-pilani.ac.in"
           />
           <div className={styles.logoGroup}>
             <p className={styles.fest}>Atmos </p>
             <a href="https://www.facebook.com/bits.atmos" target="_blank">
-              <FaFacebookF className={styles.social} />
+              <FaFacebookF className={styles.social} color="#fff" />
             </a>
             <a href="https://www.instagram.com/atmos.bitsh/" target="_blank">
-              <BsInstagram className={styles.social} />
+              <BsInstagram className={styles.social} color="#fff" />
             </a>
           </div>
           <div className={styles.logoGroup}>
@@ -40,10 +40,10 @@ function Index() {
               Pearl<span className="whitespace-pre-wrap">{"\t"}</span>
             </p>
             <a href="https://www.facebook.com/bitspearl/" target="_blank">
-              <FaFacebookF className={styles.social} />
+              <FaFacebookF className={styles.social} color="#fff" />
             </a>
             <a href="https://www.instagram.com/pearl.bitsh/" target="_blank">
-              <BsInstagram className={styles.social} />
+              <BsInstagram className={styles.social} color="#fff" />
             </a>
           </div>
         </div>
@@ -51,5 +51,50 @@ function Index() {
     </>
   );
 }
+
+// function Index() {
+//   return (
+//     <>
+//       <div className={styles.wrapper}>
+//         <img src={OrbeNovoLogoWhite} alt="" className={styles.logo} />
+//         <div className="ml-auto mr-auto">
+//           <p className={styles.text}>Feel free to connect</p>
+//           <BodyText
+//             style={{ color: "#2C3190" }}
+//             content="BITS Pilani, Hyderabad Campus"
+//           />
+//           <BodyText
+//             style={{ color: "#2C3190" }}
+//             content="Hyderabad, Telangana - 500078"
+//           />
+//           <BodyText
+//             style={{ color: "#2C3190" }}
+//             content="president@hyderabad.bits-pilani.ac.in"
+//           />
+//           <div className={styles.logoGroup}>
+//             <p className={styles.fest}>Atmos </p>
+//             <a href="https://www.facebook.com/bits.atmos" target="_blank">
+//               <FaFacebookF className={styles.social} />
+//             </a>
+//             <a href="https://www.instagram.com/atmos.bitsh/" target="_blank">
+//               <BsInstagram className={styles.social} />
+//             </a>
+//           </div>
+//           <div className={styles.logoGroup}>
+//             <p className={styles.fest}>
+//               Pearl<span className="whitespace-pre-wrap">{"\t"}</span>
+//             </p>
+//             <a href="https://www.facebook.com/bitspearl/" target="_blank">
+//               <FaFacebookF className={styles.social} />
+//             </a>
+//             <a href="https://www.instagram.com/pearl.bitsh/" target="_blank">
+//               <BsInstagram className={styles.social} />
+//             </a>
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// }
 
 export default Index;

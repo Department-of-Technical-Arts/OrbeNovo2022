@@ -4,64 +4,59 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  z-index: 1;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* backdrop-filter: blur(12px); */
+  -webkit-backdrop-filter: blur(12px);
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 
-.BITS {
-  /* position: absolute; */
-  transform: translate(-15%, -30%);
-}
-
-.text {
-  /* position: absolute;
-  left: 50%; */
-  /* margin-top: 90px; */
-  margin-top: 50px;
-  /* transform: translateX(-50%); */
-  font-family: "Henny Penny", cursive;
-  font-size: 50px;
-  color: white;
-  padding: 16px;
-}
-
-.Button {
+.bits {
+  width: 400px;
   position: absolute;
-  right: 0;
+  top: 0;
+  left: 0;
 }
 
+.navbar {
+  display: flex;
+  flex-direction: row;
+  z-index: 30;
+  transform: scale(0.75);
+}
+
+.menu {
+  padding: 16px;
+  display: none;
+}
 @media only screen and (max-width: 1540px) {
-  .BITS {
-    height: 264px;
+  .bits {
+    width: 300px;
   }
-  .text {
-    font-size: 35px;
-    margin-top: 30px;
-  }
-  .Button {
-    height: 142px;
+  .navbar {
+    transform: scale(0.6);
+    margin-left: auto;
+    margin-right: 0px;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  .BITS {
-    height: 168px;
+  .bits {
+    width: 200px;
+    top: 7px;
+    margin-left: 16px;
   }
-  .text {
-    font-size: 22px;
-    margin-top: 20px;
+  .navbar {
+    display: none;
   }
-  .Button {
-    height: 90px;
+  .menu {
+    display: block;
   }
 }
 
 @media only screen and (max-width: 576px) {
-  .text {
-    /* display: none; */
-    /* left: 0; */
-    position: absolute;
-    margin-top: 100px;
-    width: 100%;
-    text-align: center;
+  .bits {
+    width: 100px;
   }
 }
