@@ -1,0 +1,48 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.95);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  padding: 24px;
+}
+
+.bits {
+  width: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 50%;
+  transform: translateY(-50%);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  transform: scale(0.8);
+}
+
+.menu {
+  padding: 16px;
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  .menu {
+    padding: 16px;
+    display: block;
+  }
+}
+
+.cancel {
+  position: absolute;
+  right: 0;
+  margin-right: 24px;
+}

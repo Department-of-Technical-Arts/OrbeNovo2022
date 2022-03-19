@@ -13,17 +13,21 @@ function Index({ proshowData }) {
           <div className="col-span-10">
             <Title title="Proshows" />
           </div>
-          <div className="col-span-1" />
-          <div className="col-span-8">
-            <div className="grid grid-cols-2">
-              {proshowData.map((item, index) => (
-                <div key={index} className="col-span-1">
-                  <ProshowCard index={index} item={item} />
-                </div>
-              ))}
+          <div className="col-span-10">
+            <div className="grid grid-cols-3">
+              {proshowData.map((item, index) =>
+                index !== 3 ? (
+                  <div key={index} className="col-span-1">
+                    <ProshowCard index={index} item={item} />
+                  </div>
+                ) : (
+                  <div key={index} className="col-span-3">
+                    <ProshowCard index={index} item={item} />
+                  </div>
+                )
+              )}
             </div>
           </div>
-          <div className="col-span-1" />
         </div>
       </ScrollAnimation>
     </>

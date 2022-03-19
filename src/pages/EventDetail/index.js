@@ -22,9 +22,6 @@ function Index({ data }) {
           <p className={styles.navigationText}>Back to Events</p>
         </div>
         <motion.div animate={{ opacity: [0, 1] }} className={styles.wrapper}>
-          <div className={styles.title}>
-            <p className={styles.titleText}>{result[0].title}</p>
-          </div>
           <div className={styles.posterBg}>
             <img src={posterBg} alt="" />
             <img src={posterYellow} alt="" className={styles.posterYellow} />
@@ -37,42 +34,8 @@ function Index({ data }) {
               <p className={styles.navigationText}>Back to Events</p>
             </div>
             <div>
-              <p className={styles.summary}>
-                The acronym of ATMOS-Assimilation of Technically Motivated Souls
-                - is a true representation of what we are. The national
-                techno-management fest of BITS Pilani Hyderabad Campus has grown
-                from pillar to pillar in strength since its inception in 2012.
-                Spanning over 2 days from the 30th - 31st of March, ATMOS brings
-                to you a plethora of exciting contests, workshops, lectures and
-                much more!
-              </p>
-              <div className={styles.poc}>
-                <p className={styles.pocText}>PoC</p>
-                <p className={styles.pocText}>{result[0]?.pocName1}</p>
-                <p className={styles.pocText}>{result[0]?.pocNumber1}</p>
-                <p className={styles.pocText}>{result[0]?.pocName2}</p>
-                <p className={styles.pocText}>{result[0]?.pocNumber2}</p>
-              </div>
+              <p className={styles.summary}>{result[0].description}</p>
             </div>
-            <div className={styles.registerBg}>
-              <img src={register} alt="" />
-              <p className={styles.registerText}>
-                {result[0].link ? "Register" : "Coming Soon"}
-              </p>
-            </div>
-          </div>
-        </motion.div>
-        <div className={styles.contentMobile}>
-          <div>
-            <p className={styles.summary}>
-              The acronym of ATMOS-Assimilation of Technically Motivated Souls -
-              is a true representation of what we are. The national
-              techno-management fest of BITS Pilani Hyderabad Campus has grown
-              from pillar to pillar in strength since its inception in 2012.
-              Spanning over 2 days from the 30th - 31st of March, ATMOS brings
-              to you a plethora of exciting contests, workshops, lectures and
-              much more!
-            </p>
             <div className={styles.poc}>
               <p className={styles.pocText}>PoC</p>
               <p className={styles.pocText}>{result[0]?.pocName1}</p>
@@ -80,12 +43,47 @@ function Index({ data }) {
               <p className={styles.pocText}>{result[0]?.pocName2}</p>
               <p className={styles.pocText}>{result[0]?.pocNumber2}</p>
             </div>
+            {result[0].mode === "online and offline" || "online" ? (
+              <a
+                className={styles.registerBg}
+                href={result[0].link}
+                target="_blank"
+                onClick={() => console.log("clicked")}
+              >
+                <div>
+                  <img src={register} alt="" />
+                  <p className={styles.registerText}>
+                    {result[0].link ? "Register" : "Coming Soon"}
+                  </p>
+                </div>
+              </a>
+            ) : null}
           </div>
-          <div className={styles.registerBg}>
-            <img src={register} alt="" />
-            <p className={styles.registerText}>
-              {result[0].link ? "Register" : "Coming Soon"}
-            </p>
+        </motion.div>
+        <div className={styles.contentMobile}>
+          <div>
+            <p className={styles.summary}>{result[0].description}</p>
+            <div className={styles.poc}>
+              <p className={styles.pocText}>PoC</p>
+              <p className={styles.pocText}>{result[0]?.pocName1}</p>
+              <p className={styles.pocText}>{result[0]?.pocNumber1}</p>
+              <p className={styles.pocText}>{result[0]?.pocName2}</p>
+              <p className={styles.pocText}>{result[0]?.pocNumber2}</p>
+            </div>
+            {result[0].mode === "online and offline" || "online" ? (
+              <a
+                href={result[0].link}
+                target="_blank"
+                onClick={() => console.log("clicked")}
+              >
+                <div className={styles.registerBg}>
+                  <img src={register} alt="" />
+                  <p className={styles.registerText}>
+                    {result[0].link ? "Register" : "Coming Soon"}
+                  </p>
+                </div>
+              </a>
+            ) : null}
           </div>
         </div>
       </>

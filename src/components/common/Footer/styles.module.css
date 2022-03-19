@@ -14,7 +14,7 @@
 }
 
 .text {
-  font-family: "Henny Penny", cursive;
+  font-family: "Moreland";
   font-size: 50px;
   color: #fff;
 }
@@ -22,6 +22,7 @@
 .fest {
   font-size: 20px;
   color: #fff;
+  font-family: "Moreland";
 }
 
 .logoGroup {
@@ -92,8 +93,8 @@
     align-items: center;
   }
   .logoGroup {
-    justify-content: center;
     gap: 24px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
+    margin-top: 10px;
   }
 }

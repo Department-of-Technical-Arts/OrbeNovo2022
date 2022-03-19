@@ -6,7 +6,7 @@ import { useLocation } from "react-router-dom";
 import styles from "./styles.module.css";
 import Cloud1 from "../../components/Parallax/Cloud1";
 import Page from "../../components/Parallax/Page";
-import PearlLogo from "../../assets/images/Pearl Logo.png";
+import PearlLogo from "../../assets/images/Pearl Logo.svg";
 import AboutUs from "../../components/HomeComponents/AboutUs";
 import Team from "../../components/HomeComponents/Team";
 import Footer from "../../components/common/Footer";
@@ -45,7 +45,7 @@ export default function Index({ pearlData }) {
         <Page cloud={true}>
           <div className="2xl:py-32 lg:py-24 pb-16 lg:mt-0" id="aboutus">
             <p className={styles.date}>30th March - 3rd April </p>
-            <AboutUs atmos={true} />
+            <AboutUs pearl={true} />
           </div>
         </Page>
         <div>

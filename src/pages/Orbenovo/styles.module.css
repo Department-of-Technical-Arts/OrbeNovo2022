@@ -1,5 +1,5 @@
 .img {
-  height: 600px;
+  height: 700px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 200px;
@@ -60,7 +60,7 @@
     margin-right: 70px;
   }
   .img {
-    height: 420px;
+    height: 480px;
   }
 }
 
@@ -70,17 +70,18 @@
     margin-top: 10px;
   }
   .divSpons {
+    margin-top: 150px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
   .divProShow {
-    padding-top: 60px;
+    padding-top: 0px;
     padding-bottom: 60px;
     margin-left: 0px;
     margin-right: 0px;
   }
   .divTeam {
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 60px;
   }
   .date {

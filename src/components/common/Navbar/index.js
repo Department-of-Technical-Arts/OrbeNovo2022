@@ -6,9 +6,12 @@ import box2 from "../../../assets/images/Subtraction 6.svg";
 import box3 from "../../../assets/images/Subtraction 9.svg";
 import bits from "../../../assets/images/Bits Pilani White.png";
 import box4 from "../../../assets/images/Subtraction 10.svg";
+import box5 from "../../../assets/images/Subtraction 11.svg";
+import box6 from "../../../assets/images/Subtraction 47.svg";
 import menuIcon from "../../../assets/images/Group 56.svg";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
+import { MobileMenu } from "../MobileMenu";
 
 function Index() {
   const [blur, setBlur] = React.useState(0);
@@ -83,7 +86,7 @@ function Index() {
             <motion.img
               animate={{ opacity: pearl ? 1 : 0 }}
               whileHover={{ opacity: 1 }}
-              src={box4}
+              src={box6}
               alt=""
               className="absolute -top-2 left-4"
             />
@@ -107,7 +110,7 @@ function Index() {
             <motion.img
               animate={{ opacity: atmos ? 1 : 0 }}
               whileHover={{ opacity: 1 }}
-              src={box4}
+              src={box5}
               alt=""
               className="absolute -top-2 left-4"
             />
@@ -122,7 +125,7 @@ function Index() {
         </NavLink>
       </div>
       <div>
-        <img src={menuIcon} alt="" className={styles.menu} />
+        <MobileMenu />
       </div>
     </div>
   );

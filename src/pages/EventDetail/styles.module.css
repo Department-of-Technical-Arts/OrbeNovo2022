@@ -109,13 +109,15 @@
   left: 50%;
   top: 100%;
   transform: translate(-50%, -100%);
+  cursor: pointer;
+  z-index: 50;
 }
 
 .registerText {
   position: absolute;
   left: 50%;
   top: 0%;
-  transform: translate(-50%, 100%);
+  transform: translate(-75%, 100%);
   font-family: "Moreland";
   font-size: 20px;
   color: white;

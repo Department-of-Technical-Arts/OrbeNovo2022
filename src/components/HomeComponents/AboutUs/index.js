@@ -17,7 +17,7 @@ function Index({ pearl, atmos, orbenovo }) {
           <div className="col-span-10 lg:col-span-5 lg:ml-10">
             {orbenovo ? <BodyText content={Aboutus.aboutUs} /> : null}
             {atmos ? <BodyText content={Aboutus.atmos} /> : null}
-            {pearl ? <BodyText content={Aboutus.aboutUs} /> : null}
+            {pearl ? <BodyText content={Aboutus.pearl} /> : null}
           </div>
         </div>
       </ScrollAnimation>

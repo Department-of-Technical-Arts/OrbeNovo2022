@@ -3,9 +3,7 @@
   height: 640px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../../../assets/images/Proshow.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+  display: relative;
 }
 
 .textBox {

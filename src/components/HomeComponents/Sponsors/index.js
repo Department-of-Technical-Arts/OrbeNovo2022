@@ -37,6 +37,8 @@ function Index({ sponsData }) {
               position: "sticky",
               top: "50%",
               // transform: "translateY(-50%)",
+              marginTop: "200px",
+              paddingBottom: "100px",
             }}
           >
             <Title title="Sponsors" />

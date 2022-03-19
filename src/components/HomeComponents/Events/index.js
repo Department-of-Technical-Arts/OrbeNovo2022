@@ -21,9 +21,7 @@ function Index({ data }) {
           <div className="col-span-8">
             <div className="grid grid-cols-12">
               {data?.map((item, index) => (
-                <motion.div
-                  animate={{ y: [0, 5, 0] }}
-                  transition={{ duration: 3, repeat: Infinity, delay: index }}
+                <div
                   key={index}
                   onClick={() => navigate(`/event/${item.id}`)}
                   className="col-span-6 sm:col-span-3 cursor-pointer"
@@ -40,7 +38,8 @@ function Index({ data }) {
                     src={item.poster}
                     className={styles.logo}
                   />
-                </motion.div>
+                  <p className={styles.title}>{item.title}</p>
+                </div>
               ))}
             </div>
           </div>
