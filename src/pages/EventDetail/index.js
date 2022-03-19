@@ -13,7 +13,7 @@ function Index({ data }) {
   const { slugId } = useParams();
   const navigate = useNavigate();
   const result = data.filter((item) => item.id === slugId);
-
+  console.log(result[0].mode);
   return (
     result && (
       <>
@@ -43,7 +43,8 @@ function Index({ data }) {
               <p className={styles.pocText}>{result[0]?.pocName2}</p>
               <p className={styles.pocText}>{result[0]?.pocNumber2}</p>
             </div>
-            {result[0].mode === "online and offline" || "online" ? (
+            {result[0].mode === "online and offline" ||
+            result[0].mode === "online" ? (
               <a
                 className={styles.registerBg}
                 href={result[0].link}
@@ -70,7 +71,8 @@ function Index({ data }) {
               <p className={styles.pocText}>{result[0]?.pocName2}</p>
               <p className={styles.pocText}>{result[0]?.pocNumber2}</p>
             </div>
-            {result[0].mode === "online and offline" || "online" ? (
+            {result[0].mode === "online and offline" ||
+            result[0].mode === "online" ? (
               <a
                 href={result[0].link}
                 target="_blank"
