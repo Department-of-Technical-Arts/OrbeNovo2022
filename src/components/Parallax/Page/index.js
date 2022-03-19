@@ -5,7 +5,7 @@ import Cloud from "../../../assets/images/Mask Group 14.svg";
 
 function Index({ children, cloud }) {
   return (
-    <div className="z-20 flex flex-col mt-20">
+    <div className="z-20 flex flex-col mt-20 3xl:-mt-20">
       {cloud ? <img src={Cloud} alt="" className="" /> : null}
       <div className={styles.Wrapper} id="parent">
         {children}

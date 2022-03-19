@@ -9,7 +9,7 @@ import styles from "./styles.module.css";
 
 function Index() {
   return (
-    <div className="w-screen flex flex-col -z-10 2xl:mt-48 lg:mt-32 mt-20 absolute">
+    <div className="w-screen flex flex-col -z-10 2xl:mt-48 lg:mt-32 mt-20 3xl:mt-96 absolute">
       <img alt="" src={Cloud} className=" ml-auto mr-auto" />
       <img
         alt=""
