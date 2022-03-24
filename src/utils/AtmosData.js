@@ -1,68 +1,5 @@
 export const atmosData = [
   {
-    title: "CSS Creative heads",
-    description:
-      "The objective of the game is to write HTML/CSS to replicate the given target image in the least code possible in the assigned time. In the target page, start coding in the editor area on the left. As you start typing, the output area in the middl'e' will start rendering your code. When you're confiden't' that the output matches the target image, hit the Submit button to see your score.",
-    mode: "online",
-    pocName1: "Sidharth Anulld",
-    pocNumber1: "9585505132",
-    pocName2: null,
-    pocNumber2: null,
-    prize: "15000",
-    poster:
-      "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
-    link: "www.google.com",
-    isWorkshop: false,
-    id: "63",
-  },
-  {
-    title: "Deep Learning Workshop",
-    description: "Deep Learning Workshop",
-    mode: "online",
-    pocName1: "Medini N B",
-    pocNumber1: "9481331345",
-    pocName2: null,
-    pocNumber2: "nulll",
-    prize: null,
-    poster:
-      "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
-    link: "www.google.com",
-    isWorkshop: true,
-    id: "64",
-  },
-  {
-    title: "Web Crawler",
-    description:
-      "The objective is that participating teams must create a tool that can crawl websites and generate reports on specific parameters and include suggestions on how to improve said p'arameters'. This tool will be similar to Google Lighthouse.",
-    mode: "online",
-    pocName1: "Anish Guruvelli",
-    pocNumber1: "8888003008",
-    pocName2: null,
-    pocNumber2: null,
-    prize: "25000",
-    poster:
-      "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
-    link: "www.google.com",
-    isWorkshop: false,
-    id: "65",
-  },
-  {
-    title: "Stargazing",
-    description:
-      "An exhilarating stargazing session with the club telescope (Celestron)",
-    mode: "offline",
-    pocName1: "Tarun",
-    pocNumber1: "9052971001",
-    pocName2: "Atharv",
-    pocNumber2: "8878298504",
-    prize: null,
-    poster:
-      "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
-    link: "www.google.com",
-    isWorkshop: false,
-    id: "66",
-  },
-  {
     title: "Racing and track follower",
     description:
       "We will be setting up a few Tracks in the grounds which they have to follow exactly without any deviations. The Tracks would have all the lighting. We plan to have the event in such a way that people who are interested to join for racing would need to follow the track , and the person with least time to complete the track would win the competition.",
@@ -81,7 +18,7 @@ export const atmosData = [
   {
     title: "Call of duty: Chemical Warfare",
     description:
-      "The teams will have to follow the clues to reach the checkpoints and solve the riddl'es' given to them there.",
+      "The teams will have to follow the clues to reach the checkpoints and solve the riddles given to them there.",
     mode: "online and offline",
     pocName1: "Sreya",
     pocNumber1: "9849090142",
@@ -97,7 +34,7 @@ export const atmosData = [
   {
     title: "Anatomy of Murder",
     description:
-      "The teams will be sent a website link which will host the first round (quiz). Either Slido 'or' some other site link. After answering the questions asked in this round, and after the organizers are done evaluating the results, the top 7-8 teams will make their way through to the second round where the main event begins. The teams will be provided' with' a dummy dead body to examine and clues will be set that will eventually lead the teams to either dead-ends or the correct event-sequence of the murder mystery/story.",
+      "The teams will be sent a website link which will host the first round (quiz). Either Slido or some other site link. After answering the questions asked in this round, and after the organizers are done evaluating the results, the top 7-8 teams will make their way through to the second round where the main event begins. The teams will be provided with a dummy dead body to examine and clues will be set that will eventually lead the teams to either dead-ends or the correct event-sequence of the murder mystery/story.",
     mode: "online and offline",
     pocName1: "Sreya",
     pocNumber1: "9849090142",
@@ -142,11 +79,26 @@ export const atmosData = [
     isWorkshop: false,
     id: "71",
   },
-
+  {
+    title: "Robotics Bootcamp",
+    description:
+      "ARC will be conducting a 2-3 day technical workshop in which the participants will be taught the basics of robotics with the help of a physical kit. By the end of the workshop, the participants would have built 5 robots from the kit. This will give the participants a better hands-on experience of working with physical electronic components.",
+    mode: "online and offline",
+    pocName1: "Shashank Raghav",
+    pocNumber1: "7893703598",
+    pocName2: "Tanay Ranjan",
+    pocNumber2: "9987309538",
+    prize: "none",
+    poster:
+      "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
+    link: "www.google.com",
+    isWorkshop: true,
+    id: "72",
+  },
   {
     title: "Stranded",
     description:
-      "The aim of the competition would be to write the best possible code so as to negotiate a maze in the shortest possible time. The Robot which will start on the START tile and reach the FINISH tile in the shortest time will be nominated as the winner. It would be conducted in hybrid m'ode' and actually run on a physical bot made by the club members.",
+      "The aim of the competition would be to write the best possible code so as to negotiate a maze in the shortest possible time. The Robot which will start on the START tile and reach the FINISH tile in the shortest time will be nominated as the winner. It would be conducted in hybrid mode and actually run on a physical bot made by the club members.",
     mode: "online and offline",
     pocName1: "Sanjeev",
     pocNumber1: "6304763842",
@@ -157,12 +109,12 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "72",
+    id: "73",
   },
   {
     title: "Techtainment",
     description:
-      "After a brief interview to shortlist candidat'es', ARC will mentor 20+ freshers ( if they come to campus) and sophomores and guide 'them' in making some really cool and interactive projects which will be displayed during ATMOS. This will give the participants a closer experience of how projects are to be approached and dealt with and increase the technical culture on campus.",
+      "After a brief interview to shortlist candidates, ARC will mentor 20+ freshers ( if they come to campus) and sophomores and guide them in making some really cool and interactive projects which will be displayed during ATMOS. This will give the participants a closer experience of how projects are to be approached and dealt with and increase the technical culture on campus.",
     mode: "offline",
     pocName1: "Devesh S",
     pocNumber1: "7760898917",
@@ -173,7 +125,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "73",
+    id: "74",
   },
   {
     title: "Sudostar",
@@ -189,7 +141,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "74",
+    id: "75",
   },
   {
     title: "Cryptography Workshop",
@@ -204,14 +156,14 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: true,
-    id: "75",
+    id: "76",
   },
   {
     title: "CodeDash",
     description:
       "CodeDash is the premier coding event of ATMOS. It is an online competitive coding contest based on algorithms and data structures, and aims to encourage participants to apply their knowledge towards problem solving.",
     mode: "online",
-    pocName1: "Hriday' Gajulapalli'",
+    pocName1: "Hriday Gajulapalli",
     pocNumber1: null,
     pocName2: null,
     pocNumber2: null,
@@ -220,7 +172,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "76",
+    id: "77",
   },
   {
     title: "Capture The Flag",
@@ -236,7 +188,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "77",
+    id: "78",
   },
   {
     title: "Fastest Frontend First",
@@ -252,7 +204,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "78",
+    id: "79",
   },
   {
     title: "Web 3.0 workshop/talk",
@@ -267,7 +219,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: true,
-    id: "79",
+    id: "80",
   },
   {
     title: "AI/ML workshop",
@@ -282,12 +234,12 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: true,
-    id: "80",
+    id: "81",
   },
   {
     title: "Courtroom",
     description:
-      "Individua'ls' will be given a corporate lawsuit and allotted a side 'among' the plaintiff and the defendant. Two different individua'ls' will be matched up on a case and will have to debate in a courtroom like simulation.",
+      "Individuals will be given a corporate lawsuit and allotted a side among the plaintiff and the defendant. Two different individuals will be matched up on a case and will have to debate in a courtroom like simulation.",
     mode: "online and offline",
     pocName1: "Shubh",
     pocNumber1: "9413180403",
@@ -298,10 +250,10 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "81",
+    id: "82",
   },
   {
-    title: "Escalade ",
+    title: "Escalade",
     description:
       "Modeling a multiplayer game with the functionalities (released during the commencement of the event). The focus of the event is on the communication network and algorithmic development of the functionalities within the specified time limit.",
     mode: "online",
@@ -314,7 +266,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "82",
+    id: "83",
   },
   {
     title: "Paper presentation",
@@ -330,7 +282,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "83",
+    id: "84",
   },
   {
     title: "3D Drug Modeling",
@@ -346,7 +298,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "84",
+    id: "85",
   },
   {
     title: "Anatomy of Murder",
@@ -362,7 +314,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "85",
+    id: "86",
   },
   {
     title: "Pharma Paper Presentation",
@@ -378,7 +330,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "86",
+    id: "87",
   },
   {
     title: "The Thevenin Code",
@@ -393,7 +345,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "87",
+    id: "88",
   },
   {
     title: "Line Follower",
@@ -408,10 +360,10 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "88",
+    id: "89",
   },
   {
-    title: "Ansys and Solidwo'rks' Workshop and Talk",
+    title: "Ansys and Solidworks Workshop and Talk",
     description: "Workshop on Soldiworks, Ansys",
     mode: "online and offline",
     pocName1: "Devansh Pandey",
@@ -423,7 +375,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: true,
-    id: "89",
+    id: "90",
   },
   {
     title: "Car Race and Workshop",
@@ -439,7 +391,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: true,
-    id: "90",
+    id: "91",
   },
   {
     title: "Science Show",
@@ -455,7 +407,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "91",
+    id: "92",
   },
   {
     title: "ProdStorm",
@@ -471,7 +423,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "92",
+    id: "93",
   },
   {
     title: "Wall Street Business Challenge",
@@ -487,10 +439,10 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "93",
+    id: "94",
   },
   {
-    title: "Midni'ght' AV Quiz",
+    title: "Midnight AV Quiz",
     description: "Post Inaugaration Quiz, (Audio-Visual general quiz) [ATMOS]",
     mode: "online",
     pocName1: "Abhay Jagannath",
@@ -502,7 +454,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "94",
+    id: "95",
   },
   {
     title: "Sci-Tech Quiz",
@@ -517,7 +469,7 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "95",
+    id: "96",
   },
   {
     title: "Bizzinga - A Buisness & Entrepreneurs Quiz",
@@ -533,22 +485,69 @@ export const atmosData = [
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: false,
-    id: "96",
+    id: "97",
   },
   {
-    title: "Robotics Bootcamp",
+    title: "CSS Creative heads",
     description:
-      "ARC will be conducting a 2-3 day technical workshop in which the participants will be taught the basics of robotics with the help of a physical kit. By the end of the workshop, the participants would have built 5 robots from the kit. This will give the participants a better hands-on experience of working with physical electronic components.",
-    mode: "online and offline",
-    pocName1: "Shashank Raghav",
-    pocNumber1: "7893703598",
-    pocName2: "Tanay Ranjan",
-    pocNumber2: "9987309538",
-    prize: "none",
+      "The objective of the game is to write HTML/CSS to replicate the given target image in the least code possible in the assigned time. In the target page, start coding in the editor area on the left. As you start typing, the output area in the middle will start rendering your code. When you're confident that the output matches the target image, hit the Submit button to see your score.",
+    mode: "online",
+    pocName1: "Sidharth Anulld",
+    pocNumber1: "9585505132",
+    pocName2: null,
+    pocNumber2: null,
+    prize: "15000",
+    poster:
+      "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
+    link: "www.google.com",
+    isWorkshop: false,
+    id: "98",
+  },
+  {
+    title: "Deep Learning Workshop",
+    description: "Deep Learning Workshop",
+    mode: "online",
+    pocName1: "Medini N B",
+    pocNumber1: "9481331345",
+    pocName2: null,
+    pocNumber2: null,
+    prize: null,
     poster:
       "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
     link: "www.google.com",
     isWorkshop: true,
-    id: "97",
+    id: "99",
+  },
+  {
+    title: "Web Crawler",
+    description:
+      "The objective is that participating teams must create a tool that can crawl websites and generate reports on specific parameters and include suggestions on how to improve said parameters. This tool will be similar to Google Lighthouse.",
+    mode: "online",
+    pocName1: "Anish Guruvelli",
+    pocNumber1: "8888003008",
+    pocName2: null,
+    pocNumber2: null,
+    prize: "25000",
+    poster:
+      "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
+    link: "www.google.com",
+    isWorkshop: false,
+    id: "100",
+  },
+  {
+    title: "Stargazing",
+    description:
+      "An exhilarating stargazing session with the club telescope (Celestron)",
+    mode: "offline",
+    pocName1: "Tarun",
+    pocNumber1: "9052971001",
+    pocName2: "Atharv",
+    pocNumber2: "8878298504",
+    prize: null,
+    poster:
+      "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Atmos.png?alt=media&token=52237b99-9313-47d5-9705-6fd9d12b0c46",
+    link: "www.google.com",
+    isWorkshop: false,
+    id: "101",
   },
 ];
