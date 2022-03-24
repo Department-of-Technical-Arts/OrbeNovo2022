@@ -7,7 +7,7 @@
   margin-top: 50vh;
   position: relative;
   transform: translateY(-50%);
-  background-image: url("../../assets/images/Path\ 363.svg");
+  background-image: url('../../assets/images/Path\ 363.svg');
   background-position: center;
   background-repeat: no-repeat;
   padding-left: 45px;
@@ -19,7 +19,7 @@
   top: 50%;
   transform: translateY(-50%);
   width: 200px;
-  background-image: url("../../assets/images/Path\ 368.svg");
+  background-image: url('../../assets/images/Path\ 368.svg');
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -30,7 +30,7 @@
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-  font-family: "Moreland";
+  font-family: 'Moreland';
   font-size: 32px;
   padding: 16px;
 }
@@ -58,7 +58,7 @@
   top: 100%;
   left: 100%;
   transform: translate(-50%, -50%);
-  font-family: "Moreland";
+  font-family: 'Moreland';
   font-size: 40px;
   color: white;
   text-align: center;
@@ -75,7 +75,7 @@
 
 .navigationText {
   color: white;
-  font-family: "Moreland";
+  font-family: 'Moreland';
   font-size: 40px;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .summary {
-  font-family: "Baskervville", serif;
+  font-family: 'Baskervville', serif;
   font-size: 28px;
   color: white;
   padding: 40px;
@@ -101,7 +101,7 @@
 .pocText {
   color: white;
   font-size: 24px;
-  font-family: "Moreland";
+  font-family: 'Moreland';
 }
 
 .registerBg {
@@ -118,7 +118,7 @@
   left: 50%;
   top: 0%;
   transform: translate(-75%, 100%);
-  font-family: "Moreland";
+  font-family: 'Moreland';
   font-size: 20px;
   color: white;
 }
@@ -207,7 +207,7 @@
   }
   .contentMobile {
     display: block;
-    background-image: url("../../assets/images/Path\ 363.svg");
+    background-image: url('../../assets/images/Path\ 363.svg');
     background-position: bottom;
     background-repeat: no-repeat;
   }

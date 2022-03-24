@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FaFacebookF } from "react-icons/fa";
-import { BsYoutube, BsInstagram } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 
 import styles from "./styles.module.css";
 import OrbeNovoLogo from "../../../assets/images/Orbe Novo.png";
@@ -28,10 +28,10 @@ function Index() {
           />
           <div className={styles.logoGroup}>
             <p className={styles.fest}>Atmos </p>
-            <a href="https://www.facebook.com/bits.atmos" target="_blank">
+            <a href="https://www.facebook.com/bits.atmos" target="_blank" rel="noreferrer">
               <FaFacebookF className={styles.social} color="#fff" />
             </a>
-            <a href="https://www.instagram.com/atmos.bitsh/" target="_blank">
+            <a href="https://www.instagram.com/atmos.bitsh/" target="_blank" rel="noreferrer">
               <BsInstagram className={styles.social} color="#fff" />
             </a>
           </div>
@@ -39,10 +39,10 @@ function Index() {
             <p className={styles.fest}>
               Pearl<span className="whitespace-pre-wrap">{"\t"}</span>
             </p>
-            <a href="https://www.facebook.com/bitspearl/" target="_blank">
+            <a href="https://www.facebook.com/bitspearl/" target="_blank" rel="noreferrer">
               <FaFacebookF className={styles.social} color="#fff" />
             </a>
-            <a href="https://www.instagram.com/pearl.bitsh/" target="_blank">
+            <a href="https://www.instagram.com/pearl.bitsh/" target="_blank" rel="noreferrer">
               <BsInstagram className={styles.social} color="#fff" />
             </a>
           </div>

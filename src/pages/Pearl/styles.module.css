@@ -8,11 +8,11 @@
 .date {
   color: #3a86ff;
   font-size: 40px;
-  margin-top: -100px;
+  margin-top: -200px;
   text-align: right;
   margin-bottom: 216px;
   margin-right: 100px;
-  font-family: "Moreland";
+  font-family: 'Moreland';
 }
 
 @media only screen and (max-width: 1540px) {

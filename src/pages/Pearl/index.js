@@ -44,7 +44,7 @@ export default function Index({ pearlData }) {
       <div className="absolute w-full">
         <Page cloud={true}>
           <div className="2xl:py-32 lg:py-24 pb-16 lg:mt-0" id="aboutus">
-            <p className={styles.date}>30th March - 3rd April </p>
+            <p className={styles.date}>1st April - 3rd April </p>
             <AboutUs pearl={true} />
           </div>
         </Page>

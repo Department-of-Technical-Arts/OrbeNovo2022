@@ -46,7 +46,7 @@ export default function Index({ atmosData }) {
       <div className="absolute w-full">
         <Page cloud={true}>
           <div className="2xl:py-32 lg:py-24 pb-16 lg:mt-0" id="aboutus">
-            <p className={styles.date}>30th March - 3rd April </p>
+            <p className={styles.date}>30th March - 31st March </p>
             <AboutUs atmos={true} />
           </div>
         </Page>

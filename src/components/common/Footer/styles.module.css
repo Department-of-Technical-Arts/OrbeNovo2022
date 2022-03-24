@@ -1,6 +1,6 @@
 .wrapper {
   width: 100vw;
-  height: 600px;
+  height: 400px;
   z-index: 2;
   /* background-color: black; */
   display: flex;
@@ -14,7 +14,7 @@
 }
 
 .text {
-  font-family: "Moreland";
+  font-family: 'Moreland';
   font-size: 50px;
   color: #fff;
 }
@@ -22,7 +22,7 @@
 .fest {
   font-size: 20px;
   color: #fff;
-  font-family: "Moreland";
+  font-family: 'Moreland';
 }
 
 .logoGroup {

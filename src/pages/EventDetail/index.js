@@ -36,26 +36,47 @@ function Index({ data }) {
             <div>
               <p className={styles.summary}>{result[0].description}</p>
             </div>
+            {result[0].prize !== 'null' && (
+              <div>
+                <p className={styles.summary}>
+                  Prize Money Worth : ₹ {result[0].prize}
+                </p>
+              </div>
+            )}
+
             <div className={styles.poc}>
-              <p className={styles.pocText}>PoC</p>
-              <p className={styles.pocText}>{result[0]?.pocName1}</p>
-              <p className={styles.pocText}>{result[0]?.pocNumber1}</p>
-              <p className={styles.pocText}>{result[0]?.pocName2}</p>
-              <p className={styles.pocText}>{result[0]?.pocNumber2}</p>
+              <p className={styles.pocText}>Point of Contact</p>
+              <div className="flex flex-row justify-end space-x-5">
+                {result[0].pocName1 !== 'null' && (
+                  <p className={styles.pocText}>{result[0]?.pocName1}</p>
+                )}
+                {result[0].pocNumber1 !== 'null' && (
+                  <p className={styles.pocText}>+91-{result[0]?.pocNumber1}</p>
+                )}
+              </div>
+              <div className="flex flex-row justify-end space-x-5">
+                {result[0].pocName2 !== 'null' && (
+                  <p className={styles.pocText}>{result[0]?.pocName2}</p>
+                )}
+                {result[0].pocNumber2 !== 'null' && (
+                  <p className={styles.pocText}>+91-{result[0]?.pocNumber2}</p>
+                )}
+              </div>
             </div>
-            {result[0].mode === "online and offline" ||
-            result[0].mode === "online" ? (
-              result[0].link !== "www.google.com" ? (
+            {result[0].mode === 'online and offline' ||
+            result[0].mode === 'online' ? (
+              result[0].link !== 'www.google.com' ? (
                 <a
                   className={styles.registerBg}
                   href={result[0].link}
                   target="_blank"
-                  onClick={() => console.log("clicked")}
+                  onClick={() => console.log('clicked')}
+                  rel="noreferrer"
                 >
                   <div>
                     <img src={register} alt="" />
                     <p className={styles.registerText}>
-                      {result[0].link ? "Register" : "Coming Soon"}
+                      {result[0].link ? 'Register' : 'Coming Soon'}
                     </p>
                   </div>
                 </a>
@@ -66,24 +87,44 @@ function Index({ data }) {
         <div className={styles.contentMobile}>
           <div>
             <p className={styles.summary}>{result[0].description}</p>
+            {result[0].prize !== 'null' && (
+              <div>
+                <p className={styles.summary}>
+                  Prize Money Worth : ₹ {result[0].prize}
+                </p>
+              </div>
+            )}
             <div className={styles.poc}>
-              <p className={styles.pocText}>PoC</p>
-              <p className={styles.pocText}>{result[0]?.pocName1}</p>
-              <p className={styles.pocText}>{result[0]?.pocNumber1}</p>
-              <p className={styles.pocText}>{result[0]?.pocName2}</p>
-              <p className={styles.pocText}>{result[0]?.pocNumber2}</p>
+              <p className={styles.pocText}>Point of Contact</p>
+              <div className="flex flex-row justify-end space-x-5">
+                {result[0].pocName1 !== 'null' && (
+                  <p className={styles.pocText}>{result[0]?.pocName1}</p>
+                )}
+                {result[0].pocNumber1 !== 'null' && (
+                  <p className={styles.pocText}>+91-{result[0]?.pocNumber1}</p>
+                )}
+              </div>
+              <div className="flex flex-row justify-end space-x-5">
+                {result[0].pocName2 !== 'null' && (
+                  <p className={styles.pocText}>{result[0]?.pocName2}</p>
+                )}
+                {result[0].pocNumber2 !== 'null' && (
+                  <p className={styles.pocText}>+91-{result[0]?.pocNumber2}</p>
+                )}
+              </div>
             </div>
-            {result[0].mode === "online and offline" ||
-            result[0].mode === "online" ? (
+            {result[0].mode === 'online and offline' ||
+            result[0].mode === 'online' ? (
               <a
                 href={result[0].link}
                 target="_blank"
-                onClick={() => console.log("clicked")}
+                onClick={() => console.log('clicked')}
+                rel="noreferrer"
               >
                 <div className={styles.registerBg}>
                   <img src={register} alt="" />
                   <p className={styles.registerText}>
-                    {result[0].link ? "Register" : "Coming Soon"}
+                    {result[0].link ? 'Register' : 'Coming Soon'}
                   </p>
                 </div>
               </a>
