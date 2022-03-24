@@ -3,10 +3,14 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 import styles from "./styles.module.css";
 import { WindowWidth } from "../../../utils/WinDim";
-import Proshow0 from "../../../assets/images/Group 48.svg";
-import Proshow1 from "../../../assets/images/Group 49.svg";
-import Proshow2 from "../../../assets/images/Group 50.svg";
-import Proshow3 from "../../../assets/images/Group 51.svg";
+// import Proshow0 from "../../../assets/images/Group 48.svg";
+// import Proshow1 from "../../../assets/images/Group 49.svg";
+
+import Proshow0 from '../../../assets/images/abhishek.png';
+import Proshow1 from '../../../assets/images/nishant.png';
+
+// import Proshow2 from "../../../assets/images/Group 50.svg";
+// import Proshow3 from "../../../assets/images/Group 51.svg";
 
 function Index({ index, item }) {
   let bg;
@@ -18,13 +22,13 @@ function Index({ index, item }) {
       bg = Proshow1;
       break;
 
-    case 2:
-      bg = Proshow2;
-      break;
+    // case 2:
+    //   bg = Proshow2;
+    //   break;
 
-    case 3:
-      bg = Proshow3;
-      break;
+    // case 3:
+    //   bg = Proshow3;
+    //   break;
 
     default:
       bg = null;
@@ -33,7 +37,11 @@ function Index({ index, item }) {
   return (
     <>
       <div className={styles.wrapper}>
-        <img src={bg} alt="" className="p-1 lg:p-2 2xl:p-3" />
+        <img
+          src={bg}
+          alt=""
+          className="p-1 lg:p-2 2xl:p-3 transition duration-500 hover:scale-105 rounded-2xl shadow-xl"
+        />
       </div>
     </>
   );

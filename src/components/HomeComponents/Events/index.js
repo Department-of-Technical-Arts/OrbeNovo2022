@@ -19,7 +19,7 @@ function Index({ data }) {
           </div>
           <div className="col-span-1" />
           <div className="col-span-8">
-            <div className="grid grid-cols-12">
+            <div className="grid grid-cols-10">
               {data?.map((item, index) => (
                 <div
                   key={index}
@@ -34,7 +34,7 @@ function Index({ data }) {
                   }}
                 >
                   <motion.img
-                    whileHover={{ scale: 1.1 }}
+                    whileHover={{ scale: 1.05 }}
                     src={item.poster}
                     className={styles.logo}
                   />
