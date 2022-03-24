@@ -45,19 +45,21 @@ function Index({ data }) {
             </div>
             {result[0].mode === "online and offline" ||
             result[0].mode === "online" ? (
-              <a
-                className={styles.registerBg}
-                href={result[0].link}
-                target="_blank"
-                onClick={() => console.log("clicked")}
-              >
-                <div>
-                  <img src={register} alt="" />
-                  <p className={styles.registerText}>
-                    {result[0].link ? "Register" : "Coming Soon"}
-                  </p>
-                </div>
-              </a>
+              result[0].link !== "www.google.com" ? (
+                <a
+                  className={styles.registerBg}
+                  href={result[0].link}
+                  target="_blank"
+                  onClick={() => console.log("clicked")}
+                >
+                  <div>
+                    <img src={register} alt="" />
+                    <p className={styles.registerText}>
+                      {result[0].link ? "Register" : "Coming Soon"}
+                    </p>
+                  </div>
+                </a>
+              ) : null
             ) : null}
           </div>
         </motion.div>
