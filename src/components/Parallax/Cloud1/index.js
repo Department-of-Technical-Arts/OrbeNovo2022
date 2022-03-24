@@ -11,11 +11,11 @@ function Index() {
   return (
     <div className="w-screen flex flex-col -z-10 2xl:mt-48 lg:mt-32 mt-20 3xl:mt-96 absolute">
       <img alt="" src={Cloud} className=" ml-auto mr-auto" />
-      <img
+      {/* <img
         alt=""
         src={Rectangle}
         className="ml-auto mr-auto 2xl:px-64 lg:px-44 scale-y-150 origin-top"
-      />
+      /> */}
     </div>
   );
 }
