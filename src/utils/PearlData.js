@@ -496,7 +496,7 @@ export const pearlData = [
   },
   {
     title:
-      'Antakshari(this will be an offline event so no guarantee that this will be done)',
+      'Antakshari',
     description:
       "Knock knock!\nAre you the one who knows the lyrics to all the songs, or the one who vibes to all genres of music or the one who makes the best of playlists? Would you call yourself a music nerd?\nIf so, we've got some news! Presenting to you, Antakshari, but hatke.\nThe game we've all played but in a way we never have. \nJoin us to strike a feeling of nostalgia as we fight the new normal with melodies and lyrics.\nNo longer let the tune of a song stay stuck in your head. Sing it all out, right here.",
     mode: 'offline',
