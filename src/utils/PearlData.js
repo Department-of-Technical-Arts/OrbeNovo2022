@@ -10,8 +10,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/bliss-on-plate-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275511',
     isWorkshop: 'false',
   },
@@ -26,8 +25,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Fspicy%20ramen-01-min.png?alt=media&token=e0c18b7b-d086-4476-b7b4-361cee86d7e0',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -42,8 +40,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Fhaha%20hunt%202022-min.png?alt=media&token=50e47b67-0403-4c4c-8bfa-38d637c76473',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/haha-hunt-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275216',
     isWorkshop: 'false',
   },
@@ -58,8 +55,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Fimprov%20show-min.png?alt=media&token=c592c05c-e6cc-4d14-a0aa-632cfeb39d10',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -74,8 +70,7 @@ export const pearlData = [
     pocName2: 'Sanshrey Keshri',
     pocNumber2: '7331170345',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Fterpsichore-min.png?alt=media&token=c9437ba4-3a3c-435f-b9c4-deea00da0f04',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/creative-cultural-event/terpsichore-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275466',
     isWorkshop: 'false',
   },
@@ -90,8 +85,7 @@ export const pearlData = [
     pocName2: 'Ramkumar Venkat',
     pocNumber2: '8374117510',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Fensemble-min.png?alt=media&token=18bb3a1f-f94b-445c-a014-4198aaebecb0',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/ensemble-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-272390',
     isWorkshop: 'false',
   },
@@ -106,8 +100,7 @@ export const pearlData = [
     pocName2: 'Jamuna Thallapalli',
     pocNumber2: '7995265841',
     prize: 'null',
-    poster:
-      "https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Fsoul'o-2022-min.png?alt=media&token=37e1340d-e625-432e-8a77-dfb895c514f7",
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/creative-cultural-event/soulo-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275526',
     isWorkshop: 'false',
   },
@@ -121,8 +114,7 @@ export const pearlData = [
     pocName2: 'Ananya Kedia',
     pocNumber2: '7231031891',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -137,8 +129,7 @@ export const pearlData = [
     pocName2: 'Navya Mahajan',
     pocNumber2: '9467866510',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/dance-workshop-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-272371',
     isWorkshop: 'true',
   },
@@ -153,8 +144,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/brandify-product-design-branding-contest-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-275518',
     isWorkshop: 'false',
   },
@@ -169,8 +159,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/tesseral-isometric-design-contest-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275532',
     isWorkshop: 'false',
   },
@@ -185,8 +174,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/ps-battle-orbe-novo-22-275537',
     isWorkshop: 'false',
   },
@@ -201,8 +189,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/monoacting-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275502',
     isWorkshop: 'false',
   },
@@ -217,8 +204,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'true',
   },
@@ -233,8 +219,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'true',
   },
@@ -249,8 +234,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -265,8 +249,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/mime-it-out-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275746',
     isWorkshop: 'false',
   },
@@ -281,8 +264,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/subverting-expectations-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275543',
     isWorkshop: 'false',
   },
@@ -297,8 +279,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -313,8 +294,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/nostalgia-orbe-novo-22-275230',
     isWorkshop: 'false',
   },
@@ -329,8 +309,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/o/sBJaPnF?lb=2df9UZu',
     isWorkshop: 'false',
   },
@@ -345,8 +324,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/retelling-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275509',
     isWorkshop: 'false',
   },
@@ -361,8 +339,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/the-shape-of-me-orbe-novo-22-276148',
     isWorkshop: 'false',
   },
@@ -377,8 +354,7 @@ export const pearlData = [
     pocName2: 'Siddhant Jain',
     pocNumber2: '8839277867',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Ffraglore%20valo%202-min.png?alt=media&token=91dcc51e-5d9e-4017-a10f-759b5c566704',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/fraglore-valorant-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275774',
     isWorkshop: 'false',
   },
@@ -393,8 +369,7 @@ export const pearlData = [
     pocName2: 'Rudraksh Tiwari',
     pocNumber2: '7067705957',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Ffraglore2-min.png?alt=media&token=e9814f92-effc-4a72-b9dd-08d134393928',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/fraglore-csgo-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275778',
     isWorkshop: 'false',
   },
@@ -409,8 +384,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Ffraglore2-min.png?alt=media&token=e9814f92-effc-4a72-b9dd-08d134393928',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/creative-cultural-event/fraglore-rocket-league-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyder-276096',
     isWorkshop: 'false',
   },
@@ -425,8 +399,7 @@ export const pearlData = [
     pocName2: 'Harsha',
     pocNumber2: '9440850268',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Ffraglore2-min.png?alt=media&token=e9814f92-effc-4a72-b9dd-08d134393928',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/creative-cultural-event/fraglore-bgmi-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-camp-276097',
     isWorkshop: 'false',
   },
@@ -441,8 +414,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/creative-cultural-event/glitterati-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-272409',
     isWorkshop: 'false',
   },
@@ -457,8 +429,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/alta-costura-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275513',
     isWorkshop: 'false',
   },
@@ -473,8 +444,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Falfaaz-2022-min.png?alt=media&token=fef77a30-e86d-4a24-b143-12ed58f5995b',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/alfaaz-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275278',
     isWorkshop: 'false',
   },
@@ -489,14 +459,12 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Fyouthmahasabha.png?alt=media&token=9ab5f16f-e054-470c-a364-92e42d4a8719',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
   {
-    title:
-      'Antakshari',
+    title: 'music',
     description:
       "Knock knock!\nAre you the one who knows the lyrics to all the songs, or the one who vibes to all genres of music or the one who makes the best of playlists? Would you call yourself a music nerd?\nIf so, we've got some news! Presenting to you, Antakshari, but hatke.\nThe game we've all played but in a way we never have. \nJoin us to strike a feeling of nostalgia as we fight the new normal with melodies and lyrics.\nNo longer let the tune of a song stay stuck in your head. Sing it all out, right here.",
     mode: 'offline',
@@ -506,8 +474,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -522,8 +489,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -538,8 +504,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 40000.0,
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/creative-cultural-event/kaleidoscope-catharsis-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyder-272318',
     isWorkshop: 'false',
   },
@@ -554,8 +519,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 14000.0,
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/creative-cultural-event/itinerary-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275288',
     isWorkshop: 'false',
   },
@@ -570,8 +534,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Ffootball%20manager-min.png?alt=media&token=50bff7a1-ad8c-4f66-bb1b-0a4eae1e1687',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -586,8 +549,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2FInterrofiction-min.png?alt=media&token=7222b917-047a-4235-b55b-daa271071e12',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/interro-fiction-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275758',
     isWorkshop: 'false',
   },
@@ -602,8 +564,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Fretrospective2-min.png?alt=media&token=eb8c5830-42eb-487b-bc70-402bbd53dcaa',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/retrospective-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-272418',
     isWorkshop: 'false',
   },
@@ -618,8 +579,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Fexpressions2-min.png?alt=media&token=830bd112-35f9-49af-b7ab-bfa165ecfdc6',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -634,8 +594,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -650,8 +609,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -666,8 +624,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -682,8 +639,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/quiz/open-general-quiz-by-major-chandrakant-nair-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyd-275769',
     isWorkshop: 'false',
   },
@@ -698,8 +654,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -714,8 +669,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/creative-cultural-event/rang-answers-only-a-quiz-on-colors-by-jalaj-maheshwari-orbe-novo-22-birla-institute-of-technolog-275752',
     isWorkshop: 'false',
   },
@@ -730,8 +684,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -746,8 +699,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2FRENEGADE-min.png?alt=media&token=d834960a-8ccb-4636-bae5-531aab27ffe7',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/renegade-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275540',
     isWorkshop: 'false',
   },
@@ -762,8 +714,7 @@ export const pearlData = [
     pocName2: 'Aayush Tiwari',
     pocNumber2: '9880523444',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Fmasterstroke-min.png?alt=media&token=513e0ea7-670e-4736-949e-3d72c1a88269',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/masterstroke-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-272379',
     isWorkshop: 'false',
   },
@@ -778,8 +729,7 @@ export const pearlData = [
     pocName2: 'Aayush Tiwari',
     pocNumber2: '9880523444',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -794,8 +744,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/cinematic-trailer-making-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-272373',
     isWorkshop: 'false',
   },
@@ -810,8 +759,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/ad-mad-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275533',
     isWorkshop: 'false',
   },
@@ -826,8 +774,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Fshred%20wars2-min.png?alt=media&token=f5c0ab7e-6dc8-471f-812e-9a5a558a021f',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/creative-cultural-event/shred-wars-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275272',
     isWorkshop: 'false',
   },
@@ -842,8 +789,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/a-capella-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275772',
     isWorkshop: 'false',
   },
@@ -858,8 +804,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -873,8 +818,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'false',
   },
@@ -888,8 +832,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'www.google.com',
     isWorkshop: 'true',
   },
@@ -904,8 +847,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Fgandhaara-2022-min.png?alt=media&token=da806505-eea0-4fca-80c7-d765d2db0aa0',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/gandhaara-music-vocal-competition-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275983',
     isWorkshop: 'false',
   },
@@ -920,8 +862,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl.png?alt=media&token=43437f43-bab3-4eff-bfce-7b7db6ef40b2',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/gandhaara-music-concert-competition-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-camp-275992',
     isWorkshop: 'false',
   },
@@ -936,8 +877,7 @@ export const pearlData = [
     pocName2: 'null',
     pocNumber2: 'null',
     prize: 'null',
-    poster:
-      'https://firebasestorage.googleapis.com/v0/b/orbenovo-22.appspot.com/o/Pearl%2Faakaara-min.png?alt=media&token=cc391982-f5e7-4074-9682-516f1a3599db',
+    poster: require('../assets/images/Pearl Logo.png'),
     link: 'https://dare2compete.com/p/aakara-orbe-novo-22-birla-institute-of-technology-and-sciences-bits-pilani-hyderabad-campus-275832',
     isWorkshop: 'false',
   },
