@@ -26,13 +26,18 @@ export const associateSponsors = [
   {
     pic: require('../assets/images/anusha.jpeg'),
   },
-  {
-    pic: require('../assets/images/dlt.png'),
-  },
+
   {
     pic: require('../assets/images/signet.png'),
   },
 ];
+
+export const blockChain = [
+  {
+    pic: require('../assets/images/dlt.png'),
+  },
+];
+
 export const goldSponsors = [
   {
     pic: require('../assets/images/sbi.png'),
@@ -64,9 +69,6 @@ export const silverSponsors = [
     pic: require('../assets/images/gm.png'),
   },
   {
-    pic: require('../assets/images/red.png'),
-  },
-  {
     pic: require('../assets/images/thath.png'),
   },
   {
@@ -77,9 +79,6 @@ export const silverSponsors = [
   },
   {
     pic: require('../assets/images/stucred.png'),
-  },
-  {
-    pic: require('../assets/images/gatsby.jpeg'),
   },
   {
     pic: require('../assets/images/pepul.png'),
@@ -95,5 +94,23 @@ export const silverSponsors = [
   },
   {
     pic: require('../assets/images/elite.png'),
+  },
+];
+
+export const radioPartner = [
+  {
+    pic: require('../assets/images/red.png'),
+  },
+];
+
+export const groomingPartner = [
+  {
+    pic: require('../assets/images/gatsby.jpeg'),
+  },
+];
+
+export const studentCredit = [
+  {
+    pic: require('../assets/images/stucred.png'),
   },
 ];

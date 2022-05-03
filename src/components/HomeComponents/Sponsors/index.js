@@ -4,7 +4,17 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 import Title from "../../common/Text/Title";
 import SponsCard from "../../common/SponsCard";
-import { associateSponsors, coTitleSponsors, goldSponsors, silverSponsors, titleSponsor } from "../../../utils/SponsData";
+import {
+  associateSponsors,
+  coTitleSponsors,
+  goldSponsors,
+  silverSponsors,
+  titleSponsor,
+  blockChain,
+  radioPartner,
+  groomingPartner,
+  studentCredit,
+} from '../../../utils/SponsData';
 
 function Index({ sponsData }) {
   return (
@@ -66,6 +76,23 @@ function Index({ sponsData }) {
             ))}
           </div>
 
+          <h1 className="font-bold text-2xl p-4 text-white">
+            Blockchain Sponsor
+          </h1>
+          <div
+            className="grid grid-cols-2 pr-14"
+            style={{
+              width: '100%',
+              overflow: 'scroll',
+            }}
+          >
+            {blockChain.map((item, index) => (
+              <div key={index} className="col-span-1">
+                <SponsCard index={index} item={item} />
+              </div>
+            ))}
+          </div>
+
           <h1 className="font-bold text-3xl  p-4 text-white">Gold Sponsors</h1>
           <div
             className="grid grid-cols-2 pr-14"
@@ -90,6 +117,50 @@ function Index({ sponsData }) {
             }}
           >
             {silverSponsors.map((item, index) => (
+              <div key={index} className="col-span-1">
+                <SponsCard index={index} item={item} />
+              </div>
+            ))}
+          </div>
+          <h1 className="font-bold text-2xl p-4 text-white">Radio Partner</h1>
+          <div
+            className="grid grid-cols-2 pr-14"
+            style={{
+              width: '100%',
+              overflow: 'scroll',
+            }}
+          >
+            {radioPartner.map((item, index) => (
+              <div key={index} className="col-span-1">
+                <SponsCard index={index} item={item} />
+              </div>
+            ))}
+          </div>
+          <h1 className="font-bold text-2xl p-4 text-white">
+            Grooming Partner
+          </h1>
+          <div
+            className="grid grid-cols-2 pr-14"
+            style={{
+              width: '100%',
+              overflow: 'scroll',
+            }}
+          >
+            {groomingPartner.map((item, index) => (
+              <div key={index} className="col-span-1">
+                <SponsCard index={index} item={item} />
+              </div>
+            ))}
+          </div>
+          <h1 className="font-bold text-2xl p-4 text-white">Student Credit Partner</h1>
+          <div
+            className="grid grid-cols-2 pr-14"
+            style={{
+              width: '100%',
+              overflow: 'scroll',
+            }}
+          >
+            {studentCredit.map((item, index) => (
               <div key={index} className="col-span-1">
                 <SponsCard index={index} item={item} />
               </div>
