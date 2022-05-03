@@ -13,7 +13,7 @@ import ScrollToTop from "./helpers/ScrollToTop";
 import { atmosData } from "./utils/AtmosData";
 import { pearlData } from "./utils/PearlData";
 import { teamData } from "./utils/TeamData";
-import { sponsData } from "./utils/SponsData";
+import { titleSponsor } from "./utils/SponsData";
 import { proshowData } from "./utils/ProshowData";
 import Navbar from "./components/common/Navbar";
 import Background from "./components/common/Background";
@@ -31,7 +31,7 @@ function App() {
                 teamData={teamData}
                 atmosData={atmosData}
                 pearlData={pearlData}
-                sponsData={sponsData}
+                sponsData={titleSponsor}
                 proshowData={proshowData}
               />
             }
