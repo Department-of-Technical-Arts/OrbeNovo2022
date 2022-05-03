@@ -32,7 +32,7 @@ function Index({ sponsData }) {
         <div className="col-span-10 lg:col-span-5">
           <h1 className="font-bold text-3xl p-4 text-white">Title Sponsor</h1>
           <div
-            className="grid grid-cols-2 pr-14"
+            className="grid grid-cols-1 pr-14"
             style={{
               width: '100%',
               overflow: 'scroll',
