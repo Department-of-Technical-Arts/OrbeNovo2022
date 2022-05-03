@@ -1,6 +1,6 @@
 export const titleSponsor = [
   {
-    pic: require('../assets/images/pepsico.png'),
+    pic: require('../assets/images/pep.webp'),
   },
 
 ];
@@ -81,9 +81,6 @@ export const silverSponsors = [
     pic: require('../assets/images/stucred.png'),
   },
   {
-    pic: require('../assets/images/pepul.png'),
-  },
-  {
     pic: require('../assets/images/musee.jpg'),
   },
   {
@@ -112,5 +109,17 @@ export const groomingPartner = [
 export const studentCredit = [
   {
     pic: require('../assets/images/stucred.png'),
+  },
+];
+
+export const socialMediaPartner = [
+  {
+    pic: require('../assets/images/pepul.png'),
+  },
+];
+
+export const mediaPartner = [
+  {
+    pic: require('../assets/images/youth.png'),
   },
 ];

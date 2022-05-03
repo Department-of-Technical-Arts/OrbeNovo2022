@@ -14,6 +14,8 @@ import {
   radioPartner,
   groomingPartner,
   studentCredit,
+  socialMediaPartner,
+  mediaPartner,
 } from '../../../utils/SponsData';
 
 function Index({ sponsData }) {
@@ -152,7 +154,9 @@ function Index({ sponsData }) {
               </div>
             ))}
           </div>
-          <h1 className="font-bold text-2xl p-4 text-white">Student Credit Partner</h1>
+          <h1 className="font-bold text-2xl p-4 text-white">
+            Student Credit Partner
+          </h1>
           <div
             className="grid grid-cols-2 pr-14"
             style={{
@@ -161,6 +165,38 @@ function Index({ sponsData }) {
             }}
           >
             {studentCredit.map((item, index) => (
+              <div key={index} className="col-span-1">
+                <SponsCard index={index} item={item} />
+              </div>
+            ))}
+          </div>
+          <h1 className="font-bold text-2xl p-4 text-white">
+            Social Media Partner
+          </h1>
+          <div
+            className="grid grid-cols-2 pr-14"
+            style={{
+              width: '100%',
+              overflow: 'scroll',
+            }}
+          >
+            {socialMediaPartner.map((item, index) => (
+              <div key={index} className="col-span-1">
+                <SponsCard index={index} item={item} />
+              </div>
+            ))}
+          </div>
+          <h1 className="font-bold text-2xl p-4 text-white">
+            Media Partner
+          </h1>
+          <div
+            className="grid grid-cols-2 pr-14"
+            style={{
+              width: '100%',
+              overflow: 'scroll',
+            }}
+          >
+            {mediaPartner.map((item, index) => (
               <div key={index} className="col-span-1">
                 <SponsCard index={index} item={item} />
               </div>
