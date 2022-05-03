@@ -74,9 +74,6 @@ export const silverSponsors = [
     pic: require('../assets/images/gatsby.jpeg'),
   },
   {
-    pic: require('../assets/images/sodaterian.jpeg'),
-  },
-  {
     pic: require('../assets/images/greensole.jpg'),
   },
   {
